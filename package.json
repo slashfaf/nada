@@ -1,0 +1,17 @@
+{
+  "name": "nada",
+  "version": "1.0.0",
+  "description": "digitalisation de nada",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "author": "Fabrice Austruy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.5",
+    "request": "^2.79.0"
+  }
+}
