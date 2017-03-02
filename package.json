@@ -4,7 +4,7 @@
   "description": "digitalisation de nada",
   "main": "app.js",
   "scripts": {
-    "test": "echo"
+    "start": "node app.js"
   },
   "author": "Fabrice Austruy",
   "license": "ISC",
