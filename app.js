@@ -22,15 +22,17 @@ app.get("/", function (req, res) {
 });
 
 app.post("/", function (req, res) {
-  //res.send("deployed!");
   
-  response = "Coucou Guillemot!" //Default response from the webhook to show it's working
+  let prenom  = req.body.result.parameters['prenom']; // city is a required param
+  // Get the date for the weather forecast (if present)
+  
+  response = "Coucou Pingouin " + prenom + " !" //Default response from the webhook to show it's working
   res.setHeader('Content-Type', 'application/json'); //Requires application/json MIME type
   res.send(JSON.stringify({ "speech": response, "displayText": response 
   //"speech" is the spoken version of the response, "displayText" is the visual version
   }));
   
-  //res.sendFile(__dirname+'/simple.html');
+ 
   
 });
 
