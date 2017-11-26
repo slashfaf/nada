@@ -1,294 +1,294 @@
-Titre,XP,Tri,M,M1,M2
-RBL,13.0833333333333,ALA,0,6,7
-B1,28.5,ALA,0,0,0
-A2,19.0833333333333,ALA,0,0,0
-B1,10.25,ALA,0,0,2
-B1,7.25,ALA,0,0,4
-B1,13.6666666666667,ALA,0,0,0
-A3,36.4166666666667,ALA,7,23,19
-A2,10.6666666666667,ALA,0,0,0
-RBL,11.9166666666667,OGB,0,0,0
-B1,10.25,OGB,0,0,19
-A3,7.33333333333333,OGB,0,0,0
-B1,8.5,OGB,0,0,0
-B1,9.91666666666667,OGB,0,0,0
-B1,18.6666666666667,OGB,0,0,9
-A2,4.25,IKA,0,0,0
-A2,4,IKA,3,0,0
-B1,10.4166666666667,JFB,0,0,9
-B1,9.41666666666667,JFB,0,0,9
-B1,15.5833333333333,IKA,0,3,0
-A2,4,IKA,0,0,0
-A3,5.16666666666667,IKA,0,3,9
-A3,5.33333333333333,IKA,0,2,19
-B1,21.5,JFB,5,10,9
-A2,4.91666666666667,FMA,0,0,0
-B1,7.5,FMA,0,0,0
-A3,7.41666666666667,FMA,0,0,9
-A3,3,FMA,0,0,5
-RD,12.3333333333333,FMA,0,9,9
-B1,6.5,FMA,0,5,6
-A3,14.6666666666667,FMA,0,4,7
-B1,11.5,FAU,0,0,1
-A3,25.5,FAU,0,0,4.5
-A3,5.33333333333333,FAU,0,0,19
-A2,4.25,FAU,0,0,0
-A2,3.91666666666667,FAU,0,0,0
-B1,15.5,FAU,0,0,9
-A2,3.33333333333333,FAU,0,0,0
-A2,4.08333333333333,FAU,0,0,9
-A3,4.41666666666667,FAU,0,10,9
-A3,16.4166666666667,FLN,0,20.5,14
-A2,0.583333333333333,FLN,6,6,19
-B1,9.91666666666667,FLN,0,3,12
-A2,4.25,FLN,0,0,0
-A1,2.08333333333333,FLN,0,0,0
-A3,10.3333333333333,FPL,0,0,0
-A3,20.9166666666667,FPL,0,0,14
-A3,23.75,FPL,0,0,0
-A3,5.33333333333333,FPL,0,0,0
-A2,4.41666666666667,FPL,0,0,0
-A3,7.08333333333333,FPL,0,0,19
-A2,17.0833333333333,FPL,0,0,0
-A2,3.5,FPL,0,0,0
-A2,3,FPL,0,0,19
-B1,20.1666666666667,FPL,0,0,19
-RD,15.75,FPL,0,5,12
-A3,13.6666666666667,FPL,0,0,0
-A2,3.33333333333333,FPL,0,0,0
-A1,1.5,FPL,0,0,19
-A2,2.5,FPL,0,0,0
-B1,4.16666666666667,MMU,0,11,7
-A3,14.4166666666667,MMU,0,0,13
-A2,1.08333333333333,MMU,0,0,0
-A2,3.33333333333333,MMU,0,17,16
-A3,3.33333333333333,MMU,0,4,10
-A2,4.91666666666667,MMU,0,0,0
-A2,4.91666666666667,MMU,0,12,9
-A2,2.33333333333333,MMU,1,0,0
-B1,7.58333333333333,OGB,0,0,0
-A3,6.5,PBO,0,0,0
-A2,2.25,PBO,0,0,19
-A3,4.16666666666667,PBO,0,11,17
-A3,4.08333333333333,PBO,0,0,0
-A3,4.91666666666667,PBO,0,0,0
-A1,3.08333333333333,PBO,0,0,19
-A1,2.5,PBO,0,0,0
-A1,2,PBO,0,0,19
-A2,4.33333333333333,PBO,0,0,18
-A3,5.08333333333333,PBO,0,13,14
-A2,1.41666666666667,PBO,0,0,0
-B1,6,MSB,0,0,0
-A2,3.33333333333333,MSB,0,0,0
-B1,18.8333333333333,JFB,0,0,0
-B1,8.41666666666667,MRC,0,1,13
-A3,6.41666666666667,MRC,0,0,0
-A3,5.5,MRC,0,0,0
-A3,5.33333333333333,MRC,0,7,19
-A2,5.25,MRC,0,0,0
-A2,4.41666666666667,MRC,0,0,0
-A2,3.5,MRC,0,0,0
-A2,3.41666666666667,MRC,0,0,0
-A2,3.08333333333333,MRC,0,0,0
-A2,2.25,MRC,0,0,19
-A1,1.33333333333333,MRC,3.5,6.5,0
-B1,8.5,OGB,0,11,3
-A2,3.91666666666667,JGR,0,0,0
-A2,3.41666666666667,JGR,0,0,7
-A2,4.16666666666667,JGR,0,0,0
-A2,1.75,JGR,0,0,0
-A2,2.25,JGR,0,0,0
-A2,2.25,JGR,4,8,19
-A2;;;;;
-A2,1.75,JGR,0,5,9
-A2,3.33333333333333,JGR,1.5,8,8
-A2,2.83333333333333,JGR,0,0,0
-A2,3.08333333333333,JGR,0,4,19
-A3,3.08333333333333,JGR,0,20,19
-A2,2.33333333333333,JGR,0,0,9
-B1,15.6666666666667,ADU,0,0,19
-A2,16.8333333333333,ADU,0,0,19
-A3,8.91666666666667,ADU,9.5,23,19
-A2,5.83333333333333,ADU,5,11,9
-A3,5.41666666666667,ADU,0,0,19
-A2,3.66666666666667,ADU,0,0,19
-A2,3.58333333333333,ADU,0,0,0
-A2,3.25,ADU,2,12,14
-A2,2.83333333333333,ADU,3,4,0
-A2,2.83333333333333,ADU,0,0,19
-A2,1.33333333333333,ADU,0,0,19
-A2,1.33333333333333,ADU,0,10,9
-B1,8.75,NAY,0,0,0
-A2,1.33333333333333,NAY,0,0,0
-A2,2,NAY,0,13,19
-A2,4.41666666666667,NAY,0,0,0
-A1,1.91666666666667,NAY,0,13,19
-A2,2.91666666666667,NAY,0,0,0
-A3,15.5833333333333,NAY,0,0,0
-A2,3.5,NAY,0,0,0
-A2,2.16666666666667,NAY,2.5,4.5,0
-A1,1.41666666666667,NAY,0,11,19
-A2,1.75,NAY,0,13.5,19
-A1,3.08333333333333,NAY,0,0,0
-A2;;;;;
-A2,0.833333333333333,NAY,0,0,0
-B1,6.5,SCN,1,7,7
-A2,1.75,SCN,0,0,0
-A2,1.58333333333333,SCN,0,0,0
-A2,1.41666666666667,SCN,0,0,0
-A2,1.5,SCN,0,0,0
-A2,1,SCN,0,0,0
-A2,3.08333333333333,SCN,0,0,19
-A2,2.33333333333333,SCN,0,4,19
-A3,8.33333333333333,SCN,3.5,11.5,9.5
-A2,3.33333333333333,IKA,0,0,0
-A2,2.25,MSB,0,0,0
-A3,7.5,MMU,0,0,0
-A2,8,EGX,5,18,19
-A2,4.91666666666667,EGX,2,23,19
-A3,4.41666666666667,EGX,0,0,18.5
-A2,3.5,EGX,0,0,0
-A1,2.25,EGX,0,0,0
-A2,2.08333333333333,EGX,0,0,0
-A2,2.08333333333333,EGX,0,0,0
-A2,1.83333333333333,EGX,0,0,0
-A2,1.41666666666667,EGX,0,0,19
-A2,1.5,EGX,0,0,0
-A2,1.41666666666667,EGX,0,0,0
-A1,1.33333333333333,EGX,7,23,19
-A1,0.25,EGX,0,0,0
-A1,1.33333333333333,MTE,0,0,0
-A1,1.25,MTE,0,20,19
-B1,5.41666666666667,MTE,0,0,19
-A1,1,MTE,0,0,0
-A1,0.833333333333333,MTE,0,0,0
-A1,1.16666666666667,MTE,0,0,0
-A2,2.25,MTE,0,0,0
-A2,1.91666666666667,MTE,0,0,0
-A2,3.41666666666667,MTE,0,0,0
-A2,4,MTE,0,0,0
-A1,0.333333333333333,MTE,2,23,19
-A2,1.25,MTE,0,0,0
-A2,3.5,MTE,0,0,9
-A3,3.91666666666667,FMA,0,0,0
-A2,1.25,RKZ,0,0,0
-A2,3.25,HMN,0,4,0
-A1,1.08333333333333,HMN,0,0,0
-A3,5.16666666666667,OGB,0,0,0
-A0,0,RKZ,0,0,0
-A0;;;;;
-A0,0,RKZ,0,0,0
-A0;;;;;
-A0;;;;;
-A3,5.58333333333333,OGB,0,0,0
-A2,3,ABH,0,0,19
-A1,1.33333333333333,ABH,0,0,9.5
-A1,1,ABH,0,0,0
-A2,1.41666666666667,ABH,0,0,0
-A1,0.333333333333333,ABH,0,0,0
-A2,1.5,ABH,0,0,0
-A2,2.5,ABH,0,0,0
-A1,0.333333333333333,ABH,0,0,0
-A1,1.08333333333333,ABH,0,0,0
-A0,0.0833333333333333,ABH,0,0,0
-A1,1.08333333333333,ABH,0,0,0
-A2,2,ABH,0,0,0
-A2,2.25,ABH,0,0,0
-A2,0.833333333333333,MMA,0,0,0
-A1,0.833333333333333,MMA,0,10,19
-A2,3,MMA,0,0,19
-A2,1.33333333333333,MMA,0,0,0
-A2,2.41666666666667,MMA,2,12,19
-A1,0.75,MMA,0,0,0
-A1,0.75,MMA,0,0,0
-A1,1.08333333333333,MMA,0,0,0
-A1,1.08333333333333,MMA,0,0,0
-A2,3.66666666666667,IKA,0,0,0
-A1,1.66666666666667,MMA,0,0,0
-A2,3.41666666666667,JML,0,14,19
-A1,1.91666666666667,JML,0,0,0
-A2,1.41666666666667,JML,0,0,0
-A1,1.66666666666667,JML,0,0,0
-A0,0.333333333333333,JML,0,0,0
-A1,1.08333333333333,JML,0,0,19
-A1,0.333333333333333,JML,0,0,0
-Stagiaire,0.916666666666667,MTE,0,0,0
-A1,2,JML,0,0,9
-A1,1.08333333333333,JML,0,0,0
-A1,0,JML,0,0,0
-A2,1.41666666666667,JML,0,0,0
-A1,0.666666666666667,ERS,0,0,0
-A1,1.33333333333333,ERS,0,0,0
-A1,0.416666666666667,ERS,0,0,0
-A0,0.333333333333333,ERS,0,0,0
-A1,0.416666666666667,ERS,0,0,0
-A1,1.41666666666667,ERS,0,13,0
-A1,0.416666666666667,ERS,0,0,0
-A0,0.416666666666667,ERS,0,0,0
-A3,4.41666666666667,ERS,0,4,13
-A1,1.41666666666667,SCN,0,0,0
-A1,1.58333333333333,ERS,0,0,9
-A2,2.41666666666667,MSB,0,0,0
-A1,3.25,ERS,0,0,0
-A1,0.583333333333333,ERS,0,0,0
-A2,1.33333333333333,ERS,0,11,19
-A3,4.41666666666667,PBO,2.5,5,4
-A2,2.75,EMA,0,0,0
-A2,0.416666666666667,EMA,0,0,0
-A2,1.33333333333333,EMA,0,0,0
-A0,1.25,EMA,0,0,0
-A1,0.416666666666667,EMA,0,0,0
-Stagiaire,0.916666666666667,SCN,0,0,0
-A1,0.333333333333333,EMA,0,0,0
-A0,0.333333333333333,EMA,0,23,19
-A0,0.333333333333333,EMA,0,0,0
-A1;;;;;
-A2,3.41666666666667,IKA,0,0,0
-A0,0.583333333333333,PLG,0,0,0
-A1,1.33333333333333,PLG,0,0,0
-A1,0.416666666666667,PLG,0,0,0
-A0,0.416666666666667,PLG,0,0,0
-A0,0.416666666666667,PLG,0,0,0
-A1,1.41666666666667,PLG,0,0,0
-A1,0.916666666666667,PLG,0,0,0
-A1,1.41666666666667,PLG,0,0,0
-A0,0.333333333333333,PLG,0,0,0
-A0,0.333333333333333,PLG,4,19,8.5
-A0,0.333333333333333,PLG,0,0,0
-A1,1.41666666666667,PLG,0,0,0
-A0;;;;;
-A3,6.5,PBO,0,0,0
-A1,0.416666666666667,RGG,0,0,15
-A1,0.416666666666667,RGG,0,0,0
-A0,0.416666666666667,RGG,2,9,8
-A1,0.333333333333333,RGG,0,18,19
-A1,0.333333333333333,RGG,0,0,0
-A1,0.333333333333333,RGG,0,0,0
-A1,0.333333333333333,RGG,0,0,0
-A1,0.25,RGG,0,0,0
-A1,0.25,RGG,0,0,0
-A1,0.166666666666667,RGG,0,0,0
-A1,1.33333333333333,RGG,0,0,5
-A0,0.0833333333333333,RGG,0,6,19
-A3,3.25,OBA,0,0,0
-A1,0.333333333333333,OBA,2,5,10
-A0,0.333333333333333,OBA,0,10,9
-A1,0.333333333333333,OBA,0,0,0
-A1,0.333333333333333,OBA,6,21,19
-A0,0.333333333333333,OBA,2,1,7
-A1,0.25,OBA,0,0,0
-A0,0.25,OBA,0,0,19
-A0,0.166666666666667,OBA,2,13,13
-A0,0.166666666666667,OBA,0,0,0
-A0,0,OBA,3,15,19
-A3,2.58333333333333,MMU,0,4,19
-A0,0.25,YRE,0,0,19
-A0,0.25,YRE,0,0,0
-A0,0.25,YRE,0,11,19
-A0,1.16666666666667,YRE,0,0,0
-A1,0.416666666666667,ERS,0,0,0
-A0,0.166666666666667,YRE,0,0,0
-A1,0.166666666666667,YRE,0,0,0
-A0,0.166666666666667,YRE,0,0,10.5
-A1,0.166666666666667,YRE,0,0,0
-A0,0.166666666666667,YRE,0,23,16
+titre,rd,nom,trg,m,m1,m2
+rbl,ala,albert alexis,ala,0,6,7
+b1,ala,badin jean,jb,0,0,0
+a2,ala,boutoille raphaël,rbo,0,0,0
+b1,ala,hedouin boris,bhe,0,0,2
+b1,ala,mernissi khalid,kme,0,0,4
+b1,ala,thierry nicolas,nt,0,0,0
+a3,ala,vidal jean louis,jvd,7,23,19
+a2,ala,wallet fabien,fwa,0,0,0
+rbl,ogb,gentil-beccot olivier,ogb,0,0,0
+b1,ogb,bredin teva,tbr,0,0,19
+a3,ogb,habbida nawel,nhb,0,0,0
+b1,ogb,mahdi mahmoud,mmh,0,0,0
+b1,ogb,ouy fabien,foy,0,0,0
+b1,ogb,barret matthieu,mba,0,0,9
+a2,ika,abril guillaume,gab,0,0,0
+a2,ika,baydoun bilal,bba,3,0,0
+b1,jfb,caron ronan,rcn,0,0,9
+b1,jfb,kabouya imène,ika,0,0,9
+b1,ika,ortunio laurent,lo,0,3,0
+a2,ika,salhi yassir,ysl,0,0,0
+a3,ika,tuarze vianney,vtu,0,3,9
+a3,ika,koechlin arnaud,ake,0,2,19
+b1,jfb,lagarde jean-françois,jfl,5,10,9
+a2,fma,boulahya abdelrahim,aby,0,0,0
+b1,fma,chevallier sébastien,sce,0,0,0
+a3,fma,de belenet alban,adb,0,0,9
+a3,fma,el mhamdi zakaria,zel,0,0,5
+rd,fma,mathe florent,fma,0,9,9
+b1,fma,morizot clément,cmz,0,5,6
+a3,fma,tournois sébastien,sto,0,4,7
+b1,fau,austruy fabrice,fau,0,0,1
+a3,fau,bernard michel,mb,0,0,4.5
+a3,fau,radier simon,sra,0,0,19
+a2,fau,comont olivier,oco,0,0,0
+a2,fau,parisot simon,spa,0,0,0
+b1,fau,rousson julien,jrs,0,0,9
+a2,fau,otman abdulrahman,aot,0,0,0
+a2,fau,afare basma,baf,0,0,9
+a3,fau,lefranc clément,cle,0,10,9
+a3,fln,boccara franck,fb,0,20.5,14
+a2,fln,herman guillaume,ghr,6,6,19
+b1,fln,lenormand franck,fln,0,3,12
+a2,fln,pelletier pierre,ppe,0,0,0
+a1,fln,sedkane mohammed seddik,msd,0,0,0
+a3,fpl,bourget henri,hbo,0,0,0
+a3,fpl,bruynooghe olivier,obr,0,0,14
+a3,fpl,dahan cyrille,cdh,0,0,0
+a3,fpl,floury camille,cfl,0,0,0
+a2,fpl,gautier luc,lga,0,0,0
+a3,fpl,kamoun tarek,tka,0,0,19
+a2,fpl,lachaud xavier,xlc,0,0,0
+a2,fpl,le roux julien,jlo,0,0,0
+a2,fpl,ngang willy,wng,0,0,19
+b1,fpl,paroissin benoît,bpr,0,0,19
+rd,fpl,peilloux frédéric,fpl,0,5,12
+a3,fpl,picardat damien,dp,0,0,0
+a2,fpl,remondi damien,drm,0,0,0
+a1,fpl,renaudin david,drn,0,0,19
+a2,fpl,ternisien florian,ttr,0,0,0
+b1,mmu,moulin maximilien,mmu,0,11,7
+a3,mmu,besnard olivier,obe,0,0,13
+a2,mmu,renassia samuel,srn,0,0,0
+a2,mmu,kayo steve,ska,0,17,16
+a3,mmu,dazet bruno,bda,0,4,10
+a2,mmu,yakine riyad ,rya,0,0,0
+a2,mmu,thouard mathieu,mth,0,12,9
+a2,mmu,dhima agi,adh,1,0,0
+b1,ogb,bour pascal,pbo,0,0,0
+a3,pbo,alaoui soulimani meryem,mal,0,0,0
+a2,pbo,bock mathilde,mabk,0,0,19
+a3,pbo,de williencourt emmanuel,ede,0,11,17
+a3,pbo,debussche pierre,pdb,0,0,0
+a3,pbo,jullien jean-baptiste,jjl,0,0,0
+a1,pbo,namani samir,sna,0,0,19
+a1,pbo,navez baptiste,bna,0,0,0
+a1,pbo,rieublanc tony,tri,0,0,19
+a2,pbo,nivette alexandre,ani,0,0,18
+a3,pbo,tomasini jonathan,jto,0,13,14
+a2,pbo,el hamed yeslem,yel,0,0,0
+b1,msb,sabarly mathieu,msb,0,0,0
+a2,msb,mandement simon,sima,0,0,0
+b1,jfb,guigue hubert,hg,0,0,0
+b1,mrc,richard mickael,mrc,0,1,13
+a3,mrc,chervet benjamin,bch,0,0,0
+a3,mrc,l'hotellerie coralie,clh,0,0,0
+a3,mrc,ayme cédric ,cay,0,7,19
+a2,mrc,cohen dan,dcn,0,0,0
+a2,mrc,darwish ramy,rdr,0,0,0
+a2,mrc,bououli samir,sbu,0,0,0
+a2,mrc,trachen hind,htr,0,0,0
+a2,mrc,de clerck joseph,jdc,0,0,0
+a2,mrc,boujnah youssef,ybo,0,0,19
+a1,mrc,delecolle florian,fdl,3.5,6.5,0
+b1,ogb,gerardin jonathan,jgr,0,11,3
+a2,jgr,bauge carlo,caba,0,0,0
+a2,jgr,boumiza inès,ibo,0,0,7
+a2,jgr,bureau cédric,cebu,0,0,0
+a2,jgr,diagne maïmouna,mdi,0,0,0
+a2,jgr,duez guillaume,gudu,0,0,0
+a2,jgr,lecuyer félix,fly,4,8,19
+a2,jgr,lindas geoffroy,gdl,0,0,0
+a2,jgr,paviet nicolas,npv,0,5,9
+a2,jgr,rousseau sylvain,sre,1.5,8,8
+a2,jgr,traineau raphaël,rtr,0,0,0
+a2,jgr,mayolle hugues,hmy,0,4,19
+a3,jgr,hofte yuri,yhf,0,20,19
+a2,jgr,oumari zyad,zou,0,0,9
+b1,adu,dulong aymeric,adu,0,0,19
+a2,adu,faglin jean-françois,jf,0,0,19
+a3,adu,giraud olivier,ogi,9.5,23,19
+a2,adu,chabry louis,lch,5,11,9
+a3,adu,ropital guillaume,gro,0,0,19
+a2,adu,sall fatimata,fsl,0,0,19
+a2,adu,adeline clément,cad,0,0,0
+a2,adu,deveaux aurélien,adv,2,12,14
+a2,adu,attali diane,dat,3,4,0
+a2,adu,vanbaelen jeroen,jva,0,0,19
+a2,adu,nawrocki vincent,vna,0,0,19
+a2,adu,el khourouj rayhane,rel,0,10,9
+b1,nay,ayad nada,nay,0,0,0
+a2,nay,boukadi ali,albo,0,0,0
+a2,nay,delattre alexis,alde,0,13,19
+a2,nay,de vulpillieres claire,clg,0,0,0
+a1,nay,duflot louis,ldf,0,13,19
+a2,nay,forner matthieu,mfn,0,0,0
+a3,nay,gasnier lise,lg,0,0,0
+a2,nay,leblanc adrien,all,0,0,0
+a2,nay,massenavette simon,sms,2.5,4.5,0
+a1,nay,paoletti romain,rpa,0,11,19
+a2,nay,peru benjamin,bepe,0,13.5,19
+a1,nay,senkwenda andrew,ask,0,0,0
+a2,nay,vienneau-binette françois,fvb,0,0,0
+a2,nay,vero laure-anne,lve,0,0,0
+b1,scn,chnaoui-bouteau sophian,scn,1,7,7
+a2,scn,kassa taha,tks,0,0,0
+a2,scn,ahmed-belkacem sarah,sah,0,0,0
+a2,scn,tournesac matthieu,mtu,0,0,0
+a2,scn,chaulet florian,fcu,0,0,0
+a2,scn,carval thibault,thca,0,0,0
+a2,scn,benard dupas thomas,tbe,0,0,19
+a2,scn,picquart chloé,cpc,0,4,19
+a3,scn,detable amandine,adt,3.5,11.5,9.5
+a2,ika,berenger olivier,obg,0,0,0
+a2,msb,fortassin pierre,pfo,0,0,0
+a3,mmu,goux etienne,egx,0,0,0
+a2,egx,borcic sophie,sbr,5,18,19
+a2,egx,muhirwa emmanuel,emu,2,23,19
+a3,egx,chauvet rémi,rca,0,0,18.5
+a2,egx,bah grégory,gbh,0,0,0
+a1,egx,zveguintzoff adrien,azv,0,0,0
+a2,egx,demoures gaetan,gdm,0,0,0
+a2,egx,girardeau emmanuel,egi,0,0,0
+a2,egx,el filali walid,wel,0,0,0
+a2,egx,fournier guillaume,gfu,0,0,19
+a2,egx,guasch chloé,cgu,0,0,0
+a2,egx,cahard mathilde,mca,0,0,0
+a1,egx,guille alexandre,agi,7,23,19
+a1,egx,miraoui mariam,mami,0,0,0
+a1,mte,akri inès,iak,0,0,0
+a1,mte,grimaud marion,magr,0,20,19
+b1,mte,teyssandier marie,mte,0,0,19
+a1,mte,lambert clément ,cla,0,0,0
+a1,mte,habjaoui hajar,hha,0,0,0
+a1,mte,leman joachim,jle,0,0,0
+a2,mte,bourdette arnaud,abd,0,0,0
+a2,mte,narce pierre,pnr,0,0,0
+a2,mte,georges arthur,agg,0,0,0
+a2,mte,belemhani salma,sbh,0,0,0
+a1,mte,azernour tom ,taz,2,23,19
+a2,mte,parisot pauline,ppa,0,0,0
+a2,mte,girier thibaut,tgi,0,0,9
+a3,fma,kazdaghli rim,rkz,0,0,0
+a2,rkz,ngo dzuy,dno,0,0,0
+a2,hmn,tassius kevin,kta,0,4,0
+a1,hmn,audifren guillaume,gau,0,0,0
+a3,ogb,manouchian hasmik,hmn,0,0,0
+a0,rkz,gallotti dominique,dga,0,0,0
+a0,rkz,kammoun dorra,dka,0,18,19
+a0,rkz,nicolle agathe,ani,0,0,0
+a0,rkz,ben ismail sadok,sbi,0,18,19
+a0,rkz,beyls guillaume,tbd,0,18,19
+a3,ogb,bakhti asma,abh,0,0,0
+a2,abh,curoy charlotte,ccr,0,0,19
+a1,abh,jegouic kevin,kje,0,0,9.5
+a1,abh,massoudi ali,alma,0,0,0
+a2,abh,jaume claire,cja,0,0,0
+a1,abh,cherif mohamed riadh,mcr,0,0,0
+a2,abh,pambrun audrey,apm,0,0,0
+a2,abh,guillermin marie,mg,0,0,0
+a1,abh,lemaitre adrien,ali,0,0,0
+a1,abh,djammoury-monnory yasmine,ydj,0,0,0
+a0,abh,brisville thomas,tbi,0,0,0
+a1,abh,galante ezio,ega,0,0,0
+a2,abh,abitbol elie,eab,0,0,0
+a2,abh,menart gauthier,gme,0,0,0
+a2,mma,louis guillot,lgu,0,0,0
+a1,mma,sarah chou,sach,0,10,19
+a2,mma,zerguine sarah,szr,0,0,19
+a2,mma,paris maximilian ,mpr,0,0,0
+a2,mma,tardy giliane,gtr,2,12,19
+a1,mma,leflond thibault ,tle,0,0,0
+a1,mma,tang erwan,eta,0,0,0
+a1,mma,besagni jessica,jba ,0,0,0
+a1,mma,thierre kévin,kth,0,0,0
+a2,ika,mainguy marie,mma,0,0,0
+a1,mma,nguyen thanh nhan elodie,eng,0,0,0
+a2,jml,molla jeremy,jml,0,14,19
+a1,jml,ben farhat héla,hbn,0,0,0
+a2,jml,pain tennessee,tpa,0,0,0
+a1,jml,ben khalifa sabrine,sbn,0,0,0
+a0,jml,monchalin pierre,pml,0,0,0
+a1,jml,porretti cassandre ,capo,0,0,19
+a1,jml,harnouch yassine,yhr,0,0,0
+stagiaire,mte,fazaa leila ,lfz,0,0,0
+a1,jml,tonneau charles,ctn,0,0,9
+a1,jml,de guisti julien,jdg,0,0,0
+a1,jml,thibault fordeveaux,tfo,0,0,0
+a2,jml,grandgeorge hadrien,hga,0,0,0
+a1,ers,esen sinan,ses,0,0,0
+a1,ers,jonah harison johanna,jjn,0,0,0
+a1,ers,movaghar sina,new1,0,0,0
+a0,ers,bair sophiane,sobi,0,0,0
+a1,ers,arnaud layec,alc,0,0,0
+a1,ers,mekkaoui amine,amk,0,13,0
+a1,ers,guellal ines ,igu,0,0,0
+a0,ers,wodling coraline,cwo,0,0,0
+a3,ers,rosilio eva,ers,0,4,13
+a1,scn,mousseau fanny,fmo,0,0,0
+a1,ers,lecossois maxime,mlo,0,0,9
+a2,msb,wong michel,mwo,0,0,0
+a1,ers,wissal nassir ,wns,0,0,0
+a1,ers,djomouhe patrick ,pdj,0,0,0
+a2,ers,levoyer arthur,alv,0,11,19
+a3,pbo,marechal erwan,ema,2.5,5,4
+a2,ema,benkirane mohammed,mobn,0,0,0
+a2,ema,khatiri moutia,mkh,0,0,0
+a2,ema,fellah zakaria,zfe,0,0,0
+a0,ema,deschateaux alexandre,alds,0,0,0
+a1,ema,squalli houssaini mohamed,msq,0,0,0
+stagiaire,scn,zollet kévin,kzo,0,0,0
+a1,ema,bar maxime,mxba,0,0,0
+a0,ema,makhloufi asmae,asma,0,23,19
+a0,ema,pragosa andré,aps,0,0,0
+a1,ema,rembert gabrielle,grm,0,20,19
+a2,ika,legeard paul,plg,0,0,0
+a0,plg,lerat maximilien,male,0,0,0
+a1,plg,talha sara,sta,0,0,0
+a1,plg,linotte julien,jli,0,0,0
+a0,plg,pruvot amaury,apv,0,0,0
+a0,plg,marechal remi,rma,0,0,0
+a1,plg,menudier geoffray,gmn,0,0,0
+a1,plg,chauveau mathieu,mcv,0,0,0
+a1,plg,bouali meriem,mebu,0,0,0
+a0,plg,lassoued azza,ald,0,0,0
+a0,plg,lachevre jonathan,jlh,4,19,8.5
+a0,plg,wallois paul,pwa,0,0,0
+a1,plg,boens charlotte,chbo,0,0,0
+a0,plg,corider diane,dco,0,0,19
+a3,pbo,gagliardi romain,rgg,0,0,0
+a1,rgg,karagulmez stéphane,skg,0,0,15
+a1,rgg,costa alexis,aca,0,0,0
+a0,rgg,hassad aimène,ahs,2,9,8
+a1,rgg,mendili fadoua,fmn,0,18,19
+a1,rgg,abdala olga,oad,0,0,0
+a1,rgg,chan frédéric,frch,0,0,0
+a1,rgg,klitting matthieu,mki,0,0,0
+a1,rgg,gour jean-baptise,jgu,0,0,0
+a1,rgg,boucon matthieu,mbc,0,0,0
+a1,rgg,durand camille,cdd,0,0,0
+a1,rgg,guy-coichard flora,fgc,0,0,5
+a0,rgg,amine ben cheikh brahim,ambe,0,6,19
+a3,oba,barsov olga,oba,0,0,0
+a1,oba,milhau benjamin,bmi,2,5,10
+a0,oba,iguider sofiane,sig,0,10,9
+a1,oba,pierre-stéphane maurice,pmr,0,0,0
+a1,oba,monhonvalle olivier,omo,6,21,19
+a0,oba,théo tsamba,tta,2,1,7
+a1,oba,sultan chimon,csu,0,0,0
+a0,oba,godebarge ferréol,fgo,0,0,19
+a0,oba,crevoisier jérôme ,jcr,2,13,13
+a0,oba,comazzi enzo,ecm,0,0,0
+a0,oba,oudin antoine,aoud,3,15,19
+a3,mmu,rembert yves,yre,0,4,19
+a0,yre,vo van julie,jvo,0,0,19
+a0,yre,mazouz omar,omz,0,0,0
+a0,yre,besson camille,cabs,0,11,19
+a0,yre,colombet aurélien,acb,0,0,0
+a1,ers,movaghar sina,smv,0,0,0
+a0,yre,hadj abdelkader ilhem,iha,0,0,0
+a1,yre,benomar abdellah,abbe,0,0,0
+a0,yre,el fahem cyrine,cef,0,0,10.5
+a1,yre,pezier gaël,gpz,0,0,0
+a0,yre,salim sarah,ssl,0,23,16
