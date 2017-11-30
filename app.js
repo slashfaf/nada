@@ -229,14 +229,15 @@ function i_prod_treatment(req) {
 	// on teste si une date a été valorisée
 	if (req.body.result.parameters['date-period'])
 	{
-		date = req.body.result.parameters['date-period'];
+		//date = req.body.result.parameters['date-period'];
+		return req.body.result.parameters['date-period'];
 	}
 	else
 	{
 		date = Date.Now();
+		return date.month();	
 	}
 	
-	return date.month();	
 }
   
 
