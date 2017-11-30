@@ -23,10 +23,13 @@ app.get("/", function (req, res) {
 
 app.post("/", function (req, res) {
   
-  let prenom  = req.body.result.parameters['prenom']; // city is a required param
-  // Get the date for the weather forecast (if present)
+  let intent = req.body.result.metadata.intentName; // nom de l'intent
+  response = "intent reçu : " + intent; 
   
-  response = "Coucou Pingouin " + prenom + " !" //Default response from the webhook to show it's working
+  //let prenom  = req.body.result.parameters['prenom']; // city is a required param
+  //response = "Coucou Pingouin " + prenom + " !" 
+   
+ 
   res.setHeader('Content-Type', 'application/json'); //Requires application/json MIME type
   res.send(JSON.stringify({ "speech": response, "displayText": response 
   //"speech" is the spoken version of the response, "displayText" is the visual version
