@@ -23,12 +23,37 @@ app.get("/", function (req, res) {
 
 app.post("/", function (req, res) {
   
+  // on extrait l'intent reçu de dialogflow
   let intent = req.body.result.metadata.intentName; // nom de l'intent
   response = "intent reçu : " + intent; 
+
+  // on route vers le bon traitement
+  
+switch(intentName) {
+    
+	case "Pingouin":
+        response = "Les guillemots parlent aux pingouins en dur dans le code";
+        break;
+    
+	// l'utilisateur veut connnaitre les dispos des consultants
+	case "i_dispo" :
+        response = "i_dispo en dur dans le code";
+        break;
+		
+	// l'utilisateur veut connnaitre les chiffres de la prod
+	case "i_prod" :
+        response = "i_prod en dur dans le code";
+        break;
+    
+	default:
+        response = "Vous pouvez répéter la question ?";
+}
+
   
   //let prenom  = req.body.result.parameters['prenom']; // city is a required param
   //response = "Coucou Pingouin " + prenom + " !" 
-   
+  
+  
  
   res.setHeader('Content-Type', 'application/json'); //Requires application/json MIME type
   res.send(JSON.stringify({ "speech": response, "displayText": response 
