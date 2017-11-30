@@ -230,7 +230,8 @@ function i_prod_treatment(req) {
 	
 	if (req.body.result.parameters['date-period'] == "")
 	{
-		return "non mais sans dec";
+		var d = new Date();
+		return d.getMonth();
 	}
 	else 
 	{
