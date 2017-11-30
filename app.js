@@ -29,7 +29,7 @@ app.post("/", function (req, res) {
 
   // on route vers le bon traitement
   
-switch(intentName) {
+switch(intent) {
     
 	case "Pingouin":
         response = "Les guillemots parlent aux pingouins en dur dans le code";
