@@ -227,15 +227,12 @@ app.get("/parser", function (req, res) {
 function i_prod_treatment(req) {
     
 	// on teste si une date a été valorisée
-	if (req.body.result.parameters['date-period'])
-	{
-		//date = req.body.result.parameters['date-period'];
+	try{
 		return req.body.result.parameters['date-period'];
 	}
-	else
+	catch(err)
 	{
-		date = Date.Now();
-		return date.month();	
+		return date.month();
 	}
 	
 }
