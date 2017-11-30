@@ -230,9 +230,10 @@ function i_prod_treatment(req) {
 	
 	if (req.body.result.parameters['date-period'] == "")
 	{
+		
 		var d = new Date();
-		d = Date.now();
-		return d.getMonth();
+		//warning n00b january = 0 !!!
+		return d.getMonth() + 1;
 	}
 	else 
 	{
