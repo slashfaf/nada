@@ -232,7 +232,9 @@ function i_prod_treatment(req) {
 	}
 	catch(err)
 	{
-		return new Date.getMonth();
+		return "c'est bizarre...";
+		//var d = new Date();
+		//return d.getMonth();
 	}
 	
 }
