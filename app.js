@@ -21,6 +21,7 @@ app.get("/", function (req, res) {
   
 });
 
+// Fonction principale invoquée par DialogFlow
 app.post("/", function (req, res) {
   
   // on extrait l'intent reçu de dialogflow
@@ -42,7 +43,7 @@ switch(intent) {
 		
 	// l'utilisateur veut connnaitre les chiffres de la prod
 	case "i_prod" :
-        response = "i_prod en dur dans le code";
+        response = i_prod_treatment(req);
         break;
     
 	default:
@@ -223,32 +224,20 @@ app.get("/parser", function (req, res) {
 });
 
 
+function i_prod_treatment(req) {
+    
+	// on teste si une date a été valorisée
+	if (req.body.result.parameters['date-period'])
+	{
+		date = req.body.result.parameters['date-period'];
+	}
+	else
+	{
+		date = Date.Now();
+	}
 	
-	
-	
-	
-
-  
-	//var parse = require('csv-parse');
-	
-	//parse(data.toString(), {columns: true},function(err, output){
-		
-		//res.send(output);
-		
-		//res.send(output[1]);
-		
-		//var query = require('array-query');
-		//var small_data = query().limit(10).on(output);
-		
-		//var small_data = query("M1").gt(10).on(output);
-		
-		//console.log(small_data.toString());
-		
-		//res.send(small_data);
-		
-	//});
-	
-
+	return date.month();	
+}
   
 
 
