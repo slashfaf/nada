@@ -237,7 +237,8 @@ function i_prod_treatment(req) {
 	}
 	else 
 	{
-		return req.body.result.parameters['date-period'];
+		var s = req.body.result.parameters['date-period']
+		return s.substring(5,7);
 	}
 
 }
