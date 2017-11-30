@@ -231,7 +231,7 @@ function i_prod_treatment(req) {
 	if (req.body.result.parameters['date-period'] == "")
 	{
 		var d = new Date();
-		d = Date.Now();
+		d = Date.now();
 		return d.getMonth();
 	}
 	else 
