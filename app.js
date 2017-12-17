@@ -24,45 +24,39 @@ app.get("/", function (req, res) {
 // Fonction principale invoquée par DialogFlow
 app.post("/", function (req, res) {
   
+  function send_response (response){
+	res.setHeader('Content-Type', 'application/json'); //Requires application/json MIME type
+	res.send(JSON.stringify({ "speech": response, "displayText": response 
+	}));
+  }
+  
   // on extrait l'intent reçu de dialogflow
   let intent = req.body.result.metadata.intentName; // nom de l'intent
-  response = "intent reçu : " + intent; 
 
   // on route vers le bon traitement
   
 switch(intent) {
     
 	case "Pingouin":
-        response = "Les guillemots parlent aux pingouins en dur dans le code";
-        break;
+		r = "Les guillemots parlent aux pingouins en dur dans le code";
+		send_response(r);
+		break;
     
 	// l'utilisateur veut connnaitre les dispos des consultants
 	case "i_dispo" :
-        response = "i_dispo en dur dans le code";
+		lister_les_consultants_disponibles(send_response());
         break;
 		
 	// l'utilisateur veut connnaitre les chiffres de la prod
 	case "i_prod" :
-        response = i_prod_treatment(req);
+        //response = i_prod_treatment(req);
         break;
     
 	default:
-        response = "Vous pouvez répéter la question ?";
+        r = "Vous pouvez répéter la question ?";
+		send_response(r);
 }
-
-  
-  //let prenom  = req.body.result.parameters['prenom']; // city is a required param
-  //response = "Coucou Pingouin " + prenom + " !" 
-  
-  
  
-  res.setHeader('Content-Type', 'application/json'); //Requires application/json MIME type
-  res.send(JSON.stringify({ "speech": response, "displayText": response 
-  //"speech" is the spoken version of the response, "displayText" is the visual version
-  }));
-  
- 
-  
 });
 
 // Elaborating parser
@@ -204,7 +198,7 @@ app.get("/parser", function (req, res) {
 		/////////////////	
 		//sending output 
 		/////////////////
-	
+		console.log("result :" + result.toString());
 		res.send(result);
 
 	});	
@@ -222,6 +216,124 @@ app.get("/parser", function (req, res) {
 	}
 	
 });
+
+// pour tester le code
+app.get("/test", function(req, res) {
+	
+	lister_les_consultants_disponibles(
+		function (response){
+			res.send(response);
+		}
+	);
+});
+
+// pour tester le code
+app.get("/test2", function(req, res) {
+	
+	console.log(" ");
+	console.log("  -- starting parser -- ");
+		
+	var csv = require('csv-array');
+	csv.parseCSV("data.csv", function(data){
+	
+		//////////////////	
+		//parsing raw data
+		/////////////////
+
+		var query = require('array-query');	
+		var result;
+		
+		//////////////////
+		//sorting data : by defaut, descending sort on currenth month
+		//////////////////
+		console.log("  -- sorting data -- ");
+		result = query().sort("m").desc().on(data);
+		
+		//////////////////
+		//filtering data : by defaut, excluding all people not available on current month
+		//////////////////
+		console.log("  -- filtering data -- ");
+		result = query("m").gt(0).on(result);
+		
+		//////////////////
+		//preparing data : short textual representation of data 
+		//////////////////
+		console.log("  -- preparing restitution -- ");		
+		
+		var result_as_string = [];
+		result.forEach(function(item){
+			
+			result_as_string.push(item.nom + ", " + item.titre + ", " + item.m);
+			console.log(item.nom + ", " + item.titre + ", " + item.m);
+			
+		});
+		
+		
+		/////////////////	
+		//sending data 
+		/////////////////
+		console.log("  -- sending data -- ");
+		res.send(result_as_string);
+		
+	});	
+	
+	
+});
+
+
+app.get("/test3", function(req, res) {
+	
+	console.log(" ");
+	console.log("  -- starting parser -- ");
+		
+	var csv = require('csv-array');
+	csv.parseCSV("data.csv", function(data){
+	
+		//////////////////	
+		//parsing raw data
+		/////////////////
+
+		var query = require('array-query');	
+		var result;
+		
+		//////////////////
+		//sorting data : by defaut, descending sort on currenth month
+		//////////////////
+		console.log("  -- sorting data -- ");
+		result = query().sort("m").desc().on(data);
+		
+		//////////////////
+		//filtering data : by defaut, excluding all people not available on current month
+		//////////////////
+		console.log("  -- filtering data -- ");
+		result = query("m").gt(0).on(result);
+		
+		//////////////////
+		//preparing data : short textual representation of data 
+		//////////////////
+		console.log("  -- preparing restitution -- ");		
+		
+		var result_as_string ;
+		result.forEach(function(item){
+			
+			console.log(item.nom + ", " + item.titre + ", " + item.m);
+			result_as_string = result_as_string + item.nom + ", " + item.titre + ", " + item.m + "\n" ;
+			
+		});
+		
+		
+		/////////////////	
+		//sending data 
+		/////////////////
+		console.log("  -- sending data -- ");
+		res.send(result_as_string);
+			
+	});
+	
+	
+	
+});
+
 
 
 function i_prod_treatment(req) {
@@ -243,16 +355,73 @@ function i_prod_treatment(req) {
 
 }
   
+function i_dispo_treatment(req) {
+    
+	// pour l'instant on recupère seulement les grades
+	// on ne teste ni la période, ni la prénom
+		
+	var grade = req.body.result.parameters['grade']
+	
+	if (grade == "")
+	{
+		// on liste tous les consultants dispos le mois courant
+		return lister_les_consultants_disponibles();
+		
+	}
+	else
+	{
+		// on liste tous les consultants dispos le mois courant pour le grade demandé
+		return lister_les_consultants_disponibles();
+	}
 
+}
 
-// Facebook Webhook
-// Used for verification
-app.get("/webhook", function (req, res) {
-  if (req.query["hub.verify_token"] === "this_is_my_token") {
-    console.log("Verified webhook");
-    res.status(200).send(req.query["hub.challenge"]);
-  } else {
-    console.error("Verification failed. The tokens do not match.");
-    res.sendStatus(403);
-  }
-});
+function lister_les_consultants_disponibles(callback) {
+	
+	console.log(" ");
+	console.log("  -- starting parser -- ");
+		
+	var csv = require('csv-array');
+	csv.parseCSV("data.csv", function(data){
+	
+		//////////////////	
+		//parsing raw data
+		/////////////////
+
+		var query = require('array-query');	
+		var result;
+		
+		//////////////////
+		//sorting data : by defaut, descending sort on currenth month
+		//////////////////
+		console.log("  -- sorting data -- ");
+		result = query().sort("m").desc().on(data);
+		
+		//////////////////
+		//filtering data : by defaut, excluding all people not available on current month
+		//////////////////
+		console.log("  -- filtering data -- ");
+		result = query("m").gt(0).on(result);
+		
+		//////////////////
+		//preparing data : short textual representation of data 
+		//////////////////
+		console.log("  -- preparing restitution -- ");		
+		
+		var result_as_string ;
+		result.forEach(function(item){
+			
+			console.log(item.nom + ", " + item.titre + ", " + item.m);
+			result_as_string = result_as_string + item.nom + ", " + item.titre + ", " + item.m + "\n" ;
+			
+		});
+		
+		
+		/////////////////	
+		//sending data 
+		/////////////////
+		console.log("  -- executing callback-- ");
+		callback(result_as_string);
+	});
+	
+}
