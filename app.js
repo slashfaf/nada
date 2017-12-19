@@ -44,7 +44,7 @@ switch(intent) {
     
 	// l'utilisateur veut connnaitre les dispos des consultants
 	case "i_dispo" :
-		lister_les_consultants_disponibles(send_response());
+		lister_les_consultants_disponibles(send_response);
         break;
 		
 	// l'utilisateur veut connnaitre les chiffres de la prod
@@ -334,6 +334,21 @@ app.get("/test3", function(req, res) {
 	
 });
 
+// pour tester le code
+app.get("/test4", function(req, res) {
+	
+	function send_results(results)
+	{
+		console.log("  -- two -- ");
+		res.send(results);
+		console.log("  -- three -- ");
+	}
+	
+	console.log("  -- one -- ");
+	lister_les_consultants_disponibles(send_results);
+	console.log("  -- four -- ");
+	
+});
 
 
 function i_prod_treatment(req) {
