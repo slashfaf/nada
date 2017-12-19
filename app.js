@@ -424,6 +424,7 @@ function lister_les_consultants_disponibles(callback) {
 		console.log("  -- preparing restitution -- ");		
 		
 		var result_as_string ;
+		result_as_string = "";
 		result.forEach(function(item){
 			
 			console.log(item.nom + ", " + item.titre + ", " + item.m);
