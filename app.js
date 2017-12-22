@@ -44,7 +44,21 @@ switch(intent) {
     
 	// l'utilisateur veut connnaitre les dispos des consultants
 	case "i_dispo" :
-		lister_les_consultants_disponibles(send_response);
+		
+		// on récupère le prenom du consultant reçu (en fait le prénom plus le nom)
+		let prenom = req.body.result.parameters["prenom"].toLowerCase();
+		console.log("prenom :" + prenom);
+		
+		// on récupère le grade reçu de dialogflow
+		let grade = req.body.result.parameters["grade"].toLowerCase(); 
+		console.log("grade :" + grade);
+		
+		// on récupère la période
+		let date = req.body.result.parameters["date-period"].toLowerCase(); 
+		console.log("date-period :" + date);
+
+		
+		lister_les_consultants_disponibles(send_response, prenom, grade);
         break;
 		
 	// l'utilisateur veut connnaitre les chiffres de la prod
@@ -216,160 +230,7 @@ app.get("/parser", function (req, res) {
 	}
 	
 });
-
-// pour tester le code
-app.get("/test", function(req, res) {
-	
-	lister_les_consultants_disponibles(
-		function (response){
-			res.send(response);
-		}
-	);
-});
-
-// pour tester le code
-app.get("/test2", function(req, res) {
-	
-	console.log(" ");
-	console.log("  -- starting parser -- ");
-		
-	var csv = require('csv-array');
-	csv.parseCSV("data.csv", function(data){
-	
-		//////////////////	
-		//parsing raw data
-		/////////////////
-
-		var query = require('array-query');	
-		var result;
-		
-		//////////////////
-		//sorting data : by defaut, descending sort on currenth month
-		//////////////////
-		console.log("  -- sorting data -- ");
-		result = query().sort("m").desc().on(data);
-		
-		//////////////////
-		//filtering data : by defaut, excluding all people not available on current month
-		//////////////////
-		console.log("  -- filtering data -- ");
-		result = query("m").gt(0).on(result);
-		
-		//////////////////
-		//preparing data : short textual representation of data 
-		//////////////////
-		console.log("  -- preparing restitution -- ");		
-		
-		var result_as_string = [];
-		result.forEach(function(item){
-			
-			result_as_string.push(item.nom + ", " + item.titre + ", " + item.m);
-			console.log(item.nom + ", " + item.titre + ", " + item.m);
-			
-		});
-		
-		
-		/////////////////	
-		//sending data 
-		/////////////////
-		console.log("  -- sending data -- ");
-		res.send(result_as_string);
-		
-	});	
-	
-	
-});
-
-
-app.get("/test3", function(req, res) {
-	
-	console.log(" ");
-	console.log("  -- starting parser -- ");
-		
-	var csv = require('csv-array');
-	csv.parseCSV("data.csv", function(data){
-	
-		//////////////////	
-		//parsing raw data
-		/////////////////
-
-		var query = require('array-query');	
-		var result;
-		
-		//////////////////
-		//sorting data : by defaut, descending sort on currenth month
-		//////////////////
-		console.log("  -- sorting data -- ");
-		result = query().sort("m").desc().on(data);
-		
-		//////////////////
-		//filtering data : by defaut, excluding all people not available on current month
-		//////////////////
-		console.log("  -- filtering data -- ");
-		result = query("m").gt(0).on(result);
-		
-		//////////////////
-		//preparing data : short textual representation of data 
-		//////////////////
-		console.log("  -- preparing restitution -- ");		
-		
-		var result_as_string ;
-		result.forEach(function(item){
-			
-			console.log(item.nom + ", " + item.titre + ", " + item.m);
-			result_as_string = result_as_string + item.nom + ", " + item.titre + ", " + item.m + "\n" ;
-			
-		});
-		
-		
-		/////////////////	
-		//sending data 
-		/////////////////
-		console.log("  -- sending data -- ");
-		res.send(result_as_string);
-			
-	});
-	
-	
-	
-});
-
-// pour tester le code
-app.get("/test4", function(req, res) {
-	
-	function send_results(results)
-	{
-		console.log("  -- two -- ");
-		res.send(results);
-		console.log("  -- three -- ");
-	}
-	
-	console.log("  -- one -- ");
-	lister_les_consultants_disponibles(send_results);
-	console.log("  -- four -- ");
-	
-});
-
-
-function i_prod_treatment(req) {
-    
-	// on teste si une date a été valorisée
-	
-	if (req.body.result.parameters['date-period'] == "")
-	{
-		
-		var d = new Date();
-		//warning n00b january = 0 !!!
-		return d.getMonth() + 1;
-	}
-	else 
-	{
-		var s = req.body.result.parameters['date-period']
-		return s.substring(5,7);
-	}
-
-}
-  
+ 
 function i_dispo_treatment(req) {
     
 	// pour l'instant on recupère seulement les grades
@@ -391,7 +252,7 @@ function i_dispo_treatment(req) {
 
 }
 
-function lister_les_consultants_disponibles(callback) {
+function lister_les_consultants_disponibles(callback, nom, grade) {
 	
 	console.log(" ");
 	console.log("  -- starting parser -- ");
@@ -402,22 +263,46 @@ function lister_les_consultants_disponibles(callback) {
 		//////////////////	
 		//parsing raw data
 		/////////////////
-
 		var query = require('array-query');	
 		var result;
 		
-		//////////////////
-		//sorting data : by defaut, descending sort on currenth month
-		//////////////////
-		console.log("  -- sorting data -- ");
-		result = query().sort("m").desc().on(data);
+		/////////////////
+		// if a specific consultant has been asked, then only send information for this one
+		/////////////////		
 		
-		//////////////////
-		//filtering data : by defaut, excluding all people not available on current month
-		//////////////////
-		console.log("  -- filtering data -- ");
-		result = query("m").gt(0).on(result);
+		if (nom !== "")
+		{
+			console.log("  -- avaialbilities asked for : " + nom + " -- ");
+			result = query("nom").search(nom).on(data);
+		}
+		else
+		{
+			/////////////////
+			// if no specific consultant has been asked, then send information about many consultants
+			/////////////////				
+
+			//////////////////
+			//sorting data : by defaut, descending sort on currenth month
+			//////////////////
+			console.log("  -- sorting data -- ");
+			result = query().sort("m").desc().on(data);
+			
+			//////////////////
+			//filtering data : by defaut, excluding all people not available on current month
+			//////////////////
+			console.log("  -- filtering data -- ");
+			result = query("m").gt(0).on(result);
+				
+			/////////////////
+			// search for a specific grade 
+			/////////////////
+			
+			if (typeof grade !== 'undefined' && grade !== null) {
+			console.log("  -- searching for a specific grade -- ");
+			result = query("titre").search(grade).on(result);
+			}
 		
+		}		
 		//////////////////
 		//preparing data : short textual representation of data 
 		//////////////////
@@ -431,7 +316,6 @@ function lister_les_consultants_disponibles(callback) {
 			result_as_string = result_as_string + item.nom + ", " + item.titre + ", " + item.m + "\n" ;
 			
 		});
-		
 		
 		/////////////////	
 		//sending data 
