@@ -58,7 +58,7 @@ switch(intent) {
 		console.log("date-period :" + date);
 
 		
-		lister_les_consultants_disponibles(send_response, prenom, grade);
+		lister_les_consultants_disponibles(send_response, prenom, grade, date);
         break;
 		
 	// l'utilisateur veut connnaitre les chiffres de la prod
@@ -252,7 +252,7 @@ function i_dispo_treatment(req) {
 
 }
 
-function lister_les_consultants_disponibles(callback, nom, grade) {
+function lister_les_consultants_disponibles(callback, nom, grade, date) {
 	
 	console.log(" ");
 	console.log("  -- starting parser -- ");
@@ -272,8 +272,8 @@ function lister_les_consultants_disponibles(callback, nom, grade) {
 		
 		if (nom !== "")
 		{
-			console.log("  -- avaialbilities asked for : " + nom + " -- ");
 			result = query("nom").search(nom).on(data);
+			
 		}
 		else
 		{
@@ -281,28 +281,46 @@ function lister_les_consultants_disponibles(callback, nom, grade) {
 			// if no specific consultant has been asked, then send information about many consultants
 			/////////////////				
 
-			//////////////////
-			//sorting data : by defaut, descending sort on currenth month
-			//////////////////
-			console.log("  -- sorting data -- ");
-			result = query().sort("m").desc().on(data);
-			
-			//////////////////
-			//filtering data : by defaut, excluding all people not available on current month
-			//////////////////
-			console.log("  -- filtering data -- ");
-			result = query("m").gt(0).on(result);
-				
 			/////////////////
 			// search for a specific grade 
 			/////////////////
 			
 			if (typeof grade !== 'undefined' && grade !== null) {
 			console.log("  -- searching for a specific grade -- ");
-			result = query("titre").search(grade).on(result);
+			result = query("titre").search(grade).on(data);
 			}
-		
 		}		
+		
+		if (date !== "")
+		{
+			
+			required_month = date_to_month(date);
+			
+			//////////////////
+			//filtering data : excluding all people not available on the required month
+			//////////////////
+			console.log("  -- filtering data -- ");
+			result = query(required_month).gt(0).on(result);
+			
+			//////////////////
+			//sorting data : descending sort on the required month
+			//////////////////
+			console.log("  -- sorting data -- ");
+			result = query().sort(required_month).numeric().desc().on(result);
+			
+			
+		}
+		else
+		{
+			//////////////////
+			//sorting data : by defaut, descending sort on currenth month
+			//////////////////
+			console.log("  -- sorting data -- ");
+			result = query().sort("m").numeric().desc().on(result);
+			
+		}
+		
+				
 		//////////////////
 		//preparing data : short textual representation of data 
 		//////////////////
@@ -312,8 +330,8 @@ function lister_les_consultants_disponibles(callback, nom, grade) {
 		result_as_string = "";
 		result.forEach(function(item){
 			
-			console.log(item.nom + ", " + item.titre + ", " + item.m);
-			result_as_string = result_as_string + item.nom + ", " + item.titre + ", " + item.m + "\n" ;
+			console.log(item.m + ", " + item.m1 + ", " + item.m2 + ", " + item.nom + ", " + item.titre + ", "  );
+			result_as_string =  result_as_string + item.m + ", " + item.m1 + ", " + item.m2 +  ", " +  item.nom + ", " + item.titre + ", " +  "\n" ;
 			
 		});
 		
@@ -324,4 +342,55 @@ function lister_les_consultants_disponibles(callback, nom, grade) {
 		callback(result_as_string);
 	});
 	
+}
+
+function date_to_month (d) {
+
+/////////////////
+// example of date-period sent by dialog flow : 2017-12-01/2017-12-31
+/////////////////	
+try{
+
+	console.log("d = " + d);
+	var required_date = new Date(d.substring(0,10));
+	console.log("required_date = " + required_date);
+	
+	y_req = required_date.getFullYear();
+	m_req = required_date.getMonth();
+
+	var date = new Date(), 
+	y_now = date.getFullYear(), 
+	m_now = date.getMonth();
+
+	diff = (y_req - y_now)*12 + (m_req - m_now); 
+	console.log("diff = " + diff);
+		
+	switch(diff) {
+		
+		case 0 :
+		result = "m";
+		break;
+			
+		case 1 :
+		result = "m1";
+		break;
+		
+		case 2 :
+		result = "m2";
+		break;
+		
+		default:
+		result = "m";
+	}
+
+	console.log("result date_to_month = " + result);
+	return result;
+
+}
+catch(exception)
+{
+	console.log("erreur in date_to_month, returning m");
+	return "m";
+}
+
 }
