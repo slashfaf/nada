@@ -311,10 +311,29 @@ function lister_les_consultants_disponibles(callback, nom, grade, date) {
 		
 		var result_as_string ;
 		result_as_string = "";
+		
+		//////////////////
+		//adding formating : bold characters for the month on which we perform sorting
+		//////////////////
+		m_formating =  "";
+		m1_formating = "";
+		m2_formating = "";
+		switch (date_to_month(date)){
+			case "m1" :
+			m1_formating = "*";
+			break
+			
+			case "m2" :
+			m2_formating = "*";
+			
+			default :
+			m_formating = "*"
+		}
+		
 		result.forEach(function(item){
 			
 			console.log(item.m + ", " + item.m1 + ", " + item.m2 + ", " + item.nom + ", " + item.titre + ", "  );
-			result_as_string =  result_as_string + four_digits_string(item.m) + "," + four_digits_string(item.m1) + "," + four_digits_string(item.m2) +  "," +  item.nom + "," + item.titre +  " \n " ;
+			result_as_string =  result_as_string + m_formating + four_digits_string(item.m) + m_formating + "," + m1_formating + four_digits_string(item.m1) + m1_formating + "," + m2_formating + four_digits_string(item.m2) + m2_formating + "," +  item.nom + "," + item.titre +  " \n " ;
 			
 		});
 		
