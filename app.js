@@ -266,61 +266,44 @@ function lister_les_consultants_disponibles(callback, nom, grade, date) {
 		var query = require('array-query');	
 		var result;
 		
-		/////////////////
-		// if a specific consultant has been asked, then only send information for this one
-		/////////////////		
-		
+				
 		if (nom !== "")
 		{
+			/////////////////
+			// if specific consultant has(have) been asked, then only send information for this(these) one(s)
+			// even if he is (they are) not available on the required month
+			/////////////////		
 			result = query("nom").search(nom).on(data);
-			
+					
 		}
 		else
 		{
 			/////////////////
-			// if no specific consultant has been asked, then send information about many consultants
+			// if no specific consultant name has been given, then send information about all consultants
+			// who are available on the required month
+			// and for the specified grade
 			/////////////////				
 
-			/////////////////
-			// search for a specific grade 
-			/////////////////
-			
 			if (typeof grade !== 'undefined' && grade !== null) {
 			console.log("  -- searching for a specific grade -- ");
 			result = query("titre").search(grade).on(data);
 			}
-		}		
-		
-		if (date !== "")
-		{
-			
-			required_month = date_to_month(date);
 			
 			//////////////////
 			//filtering data : excluding all people not available on the required month
 			//////////////////
 			console.log("  -- filtering data -- ");
-			result = query(required_month).gt(0).on(result);
+			result = query(date_to_month(date)).gt(0).on(result);
 			
-			//////////////////
-			//sorting data : descending sort on the required month
-			//////////////////
-			console.log("  -- sorting data -- ");
-			result = query().sort(required_month).numeric().desc().on(result);
-			
-			
-		}
-		else
-		{
-			//////////////////
-			//sorting data : by defaut, descending sort on currenth month
-			//////////////////
-			console.log("  -- sorting data -- ");
-			result = query().sort("m").numeric().desc().on(result);
-			
-		}
+		}		
 		
-				
+		//////////////////
+		//sorting data : descending sort on the required month ; if date is empty, then default value is "m"
+		//////////////////
+		console.log("  -- sorting data -- ");
+		result = query().sort(date_to_month(date)).numeric().desc().on(result);
+	
+			
 		//////////////////
 		//preparing data : short textual representation of data 
 		//////////////////
@@ -331,7 +314,7 @@ function lister_les_consultants_disponibles(callback, nom, grade, date) {
 		result.forEach(function(item){
 			
 			console.log(item.m + ", " + item.m1 + ", " + item.m2 + ", " + item.nom + ", " + item.titre + ", "  );
-			result_as_string =  result_as_string + item.m + ", " + item.m1 + ", " + item.m2 +  ", " +  item.nom + ", " + item.titre + ", " +  "\n" ;
+			result_as_string =  result_as_string + four_digits_string(item.m) + "," + four_digits_string(item.m1) + "," + four_digits_string(item.m2) +  "," +  item.nom + "," + item.titre +  " \n " ;
 			
 		});
 		
@@ -393,4 +376,27 @@ catch(exception)
 	return "m";
 }
 
+}
+
+function four_digits_string (s)
+{
+	switch(s.length)
+	{
+		case 1 :
+		result = "   " + s;
+		break;
+			
+		case 2 :
+		result = "  " + s;
+		break;
+		
+		case 3 :
+		result = " " + s;
+		break;
+		
+		default:
+		result = s;
+	}
+	
+	return result;
 }
