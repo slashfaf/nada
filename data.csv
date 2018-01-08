@@ -1,294 +1,232 @@
-titre,rd,nom,trg,m,m1,m2
-rbl,ala,albert alexis,ala,0,6,7
-b1,ala,badin jean,jb,0,0,0
-a2,ala,boutoille raphaël,rbo,0,0,0
-b1,ala,hedouin boris,bhe,0,0,2
-b1,ala,mernissi khalid,kme,0,0,4
-b1,ala,thierry nicolas,nt,0,0,0
-a3,ala,vidal jean louis,jvd,7,23,19
-a2,ala,wallet fabien,fwa,0,0,0
-rbl,ogb,gentil-beccot olivier,ogb,0,0,0
-b1,ogb,bredin teva,tbr,0,0,19
-a3,ogb,habbida nawel,nhb,0,0,0
-b1,ogb,mahdi mahmoud,mmh,0,0,0
-b1,ogb,ouy fabien,foy,0,0,0
-b1,ogb,barret matthieu,mba,0,0,9
-a2,ika,abril guillaume,gab,0,0,0
-a2,ika,baydoun bilal,bba,3,0,0
-b1,jfb,caron ronan,rcn,0,0,9
-b1,jfb,kabouya imène,ika,0,0,9
-b1,ika,ortunio laurent,lo,0,3,0
-a2,ika,salhi yassir,ysl,0,0,0
-a3,ika,tuarze vianney,vtu,0,3,9
-a3,ika,koechlin arnaud,ake,0,2,19
-b1,jfb,lagarde jean-françois,jfl,5,10,9
-a2,fma,boulahya abdelrahim,aby,0,0,0
-b1,fma,chevallier sébastien,sce,0,0,0
-a3,fma,de belenet alban,adb,0,0,9
-a3,fma,el mhamdi zakaria,zel,0,0,5
-rd,fma,mathe florent,fma,0,9,9
-b1,fma,morizot clément,cmz,0,5,6
-a3,fma,tournois sébastien,sto,0,4,7
-b1,fau,austruy fabrice,fau,0,0,1
-a3,fau,bernard michel,mb,0,0,4.5
-a3,fau,radier simon,sra,0,0,19
-a2,fau,comont olivier,oco,0,0,0
-a2,fau,parisot simon,spa,0,0,0
-b1,fau,rousson julien,jrs,0,0,9
-a2,fau,otman abdulrahman,aot,0,0,0
-a2,fau,afare basma,baf,0,0,9
-a3,fau,lefranc clément,cle,0,10,9
-a3,fln,boccara franck,fb,0,20.5,14
-a2,fln,herman guillaume,ghr,6,6,19
-b1,fln,lenormand franck,fln,0,3,12
-a2,fln,pelletier pierre,ppe,0,0,0
-a1,fln,sedkane mohammed seddik,msd,0,0,0
-a3,fpl,bourget henri,hbo,0,0,0
-a3,fpl,bruynooghe olivier,obr,0,0,14
-a3,fpl,dahan cyrille,cdh,0,0,0
-a3,fpl,floury camille,cfl,0,0,0
-a2,fpl,gautier luc,lga,0,0,0
-a3,fpl,kamoun tarek,tka,0,0,19
-a2,fpl,lachaud xavier,xlc,0,0,0
-a2,fpl,le roux julien,jlo,0,0,0
-a2,fpl,ngang willy,wng,0,0,19
-b1,fpl,paroissin benoît,bpr,0,0,19
-rd,fpl,peilloux frédéric,fpl,0,5,12
-a3,fpl,picardat damien,dp,0,0,0
-a2,fpl,remondi damien,drm,0,0,0
-a1,fpl,renaudin david,drn,0,0,19
-a2,fpl,ternisien florian,ttr,0,0,0
-b1,mmu,moulin maximilien,mmu,0,11,7
-a3,mmu,besnard olivier,obe,0,0,13
-a2,mmu,renassia samuel,srn,0,0,0
-a2,mmu,kayo steve,ska,0,17,16
-a3,mmu,dazet bruno,bda,0,4,10
-a2,mmu,yakine riyad ,rya,0,0,0
-a2,mmu,thouard mathieu,mth,0,12,9
-a2,mmu,dhima agi,adh,1,0,0
-b1,ogb,bour pascal,pbo,0,0,0
-a3,pbo,alaoui soulimani meryem,mal,0,0,0
-a2,pbo,bock mathilde,mabk,0,0,19
-a3,pbo,de williencourt emmanuel,ede,0,11,17
-a3,pbo,debussche pierre,pdb,0,0,0
-a3,pbo,jullien jean-baptiste,jjl,0,0,0
-a1,pbo,namani samir,sna,0,0,19
-a1,pbo,navez baptiste,bna,0,0,0
-a1,pbo,rieublanc tony,tri,0,0,19
-a2,pbo,nivette alexandre,ani,0,0,18
-a3,pbo,tomasini jonathan,jto,0,13,14
-a2,pbo,el hamed yeslem,yel,0,0,0
-b1,msb,sabarly mathieu,msb,0,0,0
-a2,msb,mandement simon,sima,0,0,0
-b1,jfb,guigue hubert,hg,0,0,0
-b1,mrc,richard mickael,mrc,0,1,13
-a3,mrc,chervet benjamin,bch,0,0,0
-a3,mrc,l'hotellerie coralie,clh,0,0,0
-a3,mrc,ayme cédric ,cay,0,7,19
-a2,mrc,cohen dan,dcn,0,0,0
-a2,mrc,darwish ramy,rdr,0,0,0
-a2,mrc,bououli samir,sbu,0,0,0
-a2,mrc,trachen hind,htr,0,0,0
-a2,mrc,de clerck joseph,jdc,0,0,0
-a2,mrc,boujnah youssef,ybo,0,0,19
-a1,mrc,delecolle florian,fdl,3.5,6.5,0
-b1,ogb,gerardin jonathan,jgr,0,11,3
-a2,jgr,bauge carlo,caba,0,0,0
-a2,jgr,boumiza inès,ibo,0,0,7
-a2,jgr,bureau cédric,cebu,0,0,0
-a2,jgr,diagne maïmouna,mdi,0,0,0
-a2,jgr,duez guillaume,gudu,0,0,0
-a2,jgr,lecuyer félix,fly,4,8,19
-a2,jgr,lindas geoffroy,gdl,0,0,0
-a2,jgr,paviet nicolas,npv,0,5,9
-a2,jgr,rousseau sylvain,sre,1.5,8,8
-a2,jgr,traineau raphaël,rtr,0,0,0
-a2,jgr,mayolle hugues,hmy,0,4,19
-a3,jgr,hofte yuri,yhf,0,20,19
-a2,jgr,oumari zyad,zou,0,0,9
-b1,adu,dulong aymeric,adu,0,0,19
-a2,adu,faglin jean-françois,jf,0,0,19
-a3,adu,giraud olivier,ogi,9.5,23,19
-a2,adu,chabry louis,lch,5,11,9
-a3,adu,ropital guillaume,gro,0,0,19
-a2,adu,sall fatimata,fsl,0,0,19
-a2,adu,adeline clément,cad,0,0,0
-a2,adu,deveaux aurélien,adv,2,12,14
-a2,adu,attali diane,dat,3,4,0
-a2,adu,vanbaelen jeroen,jva,0,0,19
-a2,adu,nawrocki vincent,vna,0,0,19
-a2,adu,el khourouj rayhane,rel,0,10,9
-b1,nay,ayad nada,nay,0,0,0
-a2,nay,boukadi ali,albo,0,0,0
-a2,nay,delattre alexis,alde,0,13,19
-a2,nay,de vulpillieres claire,clg,0,0,0
-a1,nay,duflot louis,ldf,0,13,19
-a2,nay,forner matthieu,mfn,0,0,0
-a3,nay,gasnier lise,lg,0,0,0
-a2,nay,leblanc adrien,all,0,0,0
-a2,nay,massenavette simon,sms,2.5,4.5,0
-a1,nay,paoletti romain,rpa,0,11,19
-a2,nay,peru benjamin,bepe,0,13.5,19
-a1,nay,senkwenda andrew,ask,0,0,0
-a2,nay,vienneau-binette françois,fvb,0,0,0
-a2,nay,vero laure-anne,lve,0,0,0
-b1,scn,chnaoui-bouteau sophian,scn,1,7,7
-a2,scn,kassa taha,tks,0,0,0
-a2,scn,ahmed-belkacem sarah,sah,0,0,0
-a2,scn,tournesac matthieu,mtu,0,0,0
-a2,scn,chaulet florian,fcu,0,0,0
-a2,scn,carval thibault,thca,0,0,0
-a2,scn,benard dupas thomas,tbe,0,0,19
-a2,scn,picquart chloé,cpc,0,4,19
-a3,scn,detable amandine,adt,3.5,11.5,9.5
-a2,ika,berenger olivier,obg,0,0,0
-a2,msb,fortassin pierre,pfo,0,0,0
-a3,mmu,goux etienne,egx,0,0,0
-a2,egx,borcic sophie,sbr,5,18,19
-a2,egx,muhirwa emmanuel,emu,2,23,19
-a3,egx,chauvet rémi,rca,0,0,18.5
-a2,egx,bah grégory,gbh,0,0,0
-a1,egx,zveguintzoff adrien,azv,0,0,0
-a2,egx,demoures gaetan,gdm,0,0,0
-a2,egx,girardeau emmanuel,egi,0,0,0
-a2,egx,el filali walid,wel,0,0,0
-a2,egx,fournier guillaume,gfu,0,0,19
-a2,egx,guasch chloé,cgu,0,0,0
-a2,egx,cahard mathilde,mca,0,0,0
-a1,egx,guille alexandre,agi,7,23,19
-a1,egx,miraoui mariam,mami,0,0,0
-a1,mte,akri inès,iak,0,0,0
-a1,mte,grimaud marion,magr,0,20,19
-b1,mte,teyssandier marie,mte,0,0,19
-a1,mte,lambert clément ,cla,0,0,0
-a1,mte,habjaoui hajar,hha,0,0,0
-a1,mte,leman joachim,jle,0,0,0
-a2,mte,bourdette arnaud,abd,0,0,0
-a2,mte,narce pierre,pnr,0,0,0
-a2,mte,georges arthur,agg,0,0,0
-a2,mte,belemhani salma,sbh,0,0,0
-a1,mte,azernour tom ,taz,2,23,19
-a2,mte,parisot pauline,ppa,0,0,0
-a2,mte,girier thibaut,tgi,0,0,9
-a3,fma,kazdaghli rim,rkz,0,0,0
-a2,rkz,ngo dzuy,dno,0,0,0
-a2,hmn,tassius kevin,kta,0,4,0
-a1,hmn,audifren guillaume,gau,0,0,0
-a3,ogb,manouchian hasmik,hmn,0,0,0
-a0,rkz,gallotti dominique,dga,0,0,0
-a0,rkz,kammoun dorra,dka,0,18,19
-a0,rkz,nicolle agathe,ani,0,0,0
-a0,rkz,ben ismail sadok,sbi,0,18,19
-a0,rkz,beyls guillaume,tbd,0,18,19
-a3,ogb,bakhti asma,abh,0,0,0
-a2,abh,curoy charlotte,ccr,0,0,19
-a1,abh,jegouic kevin,kje,0,0,9.5
-a1,abh,massoudi ali,alma,0,0,0
-a2,abh,jaume claire,cja,0,0,0
-a1,abh,cherif mohamed riadh,mcr,0,0,0
-a2,abh,pambrun audrey,apm,0,0,0
-a2,abh,guillermin marie,mg,0,0,0
-a1,abh,lemaitre adrien,ali,0,0,0
-a1,abh,djammoury-monnory yasmine,ydj,0,0,0
-a0,abh,brisville thomas,tbi,0,0,0
-a1,abh,galante ezio,ega,0,0,0
-a2,abh,abitbol elie,eab,0,0,0
-a2,abh,menart gauthier,gme,0,0,0
-a2,mma,louis guillot,lgu,0,0,0
-a1,mma,sarah chou,sach,0,10,19
-a2,mma,zerguine sarah,szr,0,0,19
-a2,mma,paris maximilian ,mpr,0,0,0
-a2,mma,tardy giliane,gtr,2,12,19
-a1,mma,leflond thibault ,tle,0,0,0
-a1,mma,tang erwan,eta,0,0,0
-a1,mma,besagni jessica,jba ,0,0,0
-a1,mma,thierre kévin,kth,0,0,0
-a2,ika,mainguy marie,mma,0,0,0
-a1,mma,nguyen thanh nhan elodie,eng,0,0,0
-a2,jml,molla jeremy,jml,0,14,19
-a1,jml,ben farhat héla,hbn,0,0,0
-a2,jml,pain tennessee,tpa,0,0,0
-a1,jml,ben khalifa sabrine,sbn,0,0,0
-a0,jml,monchalin pierre,pml,0,0,0
-a1,jml,porretti cassandre ,capo,0,0,19
-a1,jml,harnouch yassine,yhr,0,0,0
-stagiaire,mte,fazaa leila ,lfz,0,0,0
-a1,jml,tonneau charles,ctn,0,0,9
-a1,jml,de guisti julien,jdg,0,0,0
-a1,jml,thibault fordeveaux,tfo,0,0,0
-a2,jml,grandgeorge hadrien,hga,0,0,0
-a1,ers,esen sinan,ses,0,0,0
-a1,ers,jonah harison johanna,jjn,0,0,0
-a1,ers,movaghar sina,new1,0,0,0
-a0,ers,bair sophiane,sobi,0,0,0
-a1,ers,arnaud layec,alc,0,0,0
-a1,ers,mekkaoui amine,amk,0,13,0
-a1,ers,guellal ines ,igu,0,0,0
-a0,ers,wodling coraline,cwo,0,0,0
-a3,ers,rosilio eva,ers,0,4,13
-a1,scn,mousseau fanny,fmo,0,0,0
-a1,ers,lecossois maxime,mlo,0,0,9
-a2,msb,wong michel,mwo,0,0,0
-a1,ers,wissal nassir ,wns,0,0,0
-a1,ers,djomouhe patrick ,pdj,0,0,0
-a2,ers,levoyer arthur,alv,0,11,19
-a3,pbo,marechal erwan,ema,2.5,5,4
-a2,ema,benkirane mohammed,mobn,0,0,0
-a2,ema,khatiri moutia,mkh,0,0,0
-a2,ema,fellah zakaria,zfe,0,0,0
-a0,ema,deschateaux alexandre,alds,0,0,0
-a1,ema,squalli houssaini mohamed,msq,0,0,0
-stagiaire,scn,zollet kévin,kzo,0,0,0
-a1,ema,bar maxime,mxba,0,0,0
-a0,ema,makhloufi asmae,asma,0,23,19
-a0,ema,pragosa andré,aps,0,0,0
-a1,ema,rembert gabrielle,grm,0,20,19
-a2,ika,legeard paul,plg,0,0,0
-a0,plg,lerat maximilien,male,0,0,0
-a1,plg,talha sara,sta,0,0,0
-a1,plg,linotte julien,jli,0,0,0
-a0,plg,pruvot amaury,apv,0,0,0
-a0,plg,marechal remi,rma,0,0,0
-a1,plg,menudier geoffray,gmn,0,0,0
-a1,plg,chauveau mathieu,mcv,0,0,0
-a1,plg,bouali meriem,mebu,0,0,0
-a0,plg,lassoued azza,ald,0,0,0
-a0,plg,lachevre jonathan,jlh,4,19,8.5
-a0,plg,wallois paul,pwa,0,0,0
-a1,plg,boens charlotte,chbo,0,0,0
-a0,plg,corider diane,dco,0,0,19
-a3,pbo,gagliardi romain,rgg,0,0,0
-a1,rgg,karagulmez stéphane,skg,0,0,15
-a1,rgg,costa alexis,aca,0,0,0
-a0,rgg,hassad aimène,ahs,2,9,8
-a1,rgg,mendili fadoua,fmn,0,18,19
-a1,rgg,abdala olga,oad,0,0,0
-a1,rgg,chan frédéric,frch,0,0,0
-a1,rgg,klitting matthieu,mki,0,0,0
-a1,rgg,gour jean-baptise,jgu,0,0,0
-a1,rgg,boucon matthieu,mbc,0,0,0
-a1,rgg,durand camille,cdd,0,0,0
-a1,rgg,guy-coichard flora,fgc,0,0,5
-a0,rgg,amine ben cheikh brahim,ambe,0,6,19
-a3,oba,barsov olga,oba,0,0,0
-a1,oba,milhau benjamin,bmi,2,5,10
-a0,oba,iguider sofiane,sig,0,10,9
-a1,oba,pierre-stéphane maurice,pmr,0,0,0
-a1,oba,monhonvalle olivier,omo,6,21,19
-a0,oba,théo tsamba,tta,2,1,7
-a1,oba,sultan chimon,csu,0,0,0
-a0,oba,godebarge ferréol,fgo,0,0,19
-a0,oba,crevoisier jérôme ,jcr,2,13,13
-a0,oba,comazzi enzo,ecm,0,0,0
-a0,oba,oudin antoine,aoud,3,15,19
-a3,mmu,rembert yves,yre,0,4,19
-a0,yre,vo van julie,jvo,0,0,19
-a0,yre,mazouz omar,omz,0,0,0
-a0,yre,besson camille,cabs,0,11,19
-a0,yre,colombet aurélien,acb,0,0,0
-a1,ers,movaghar sina,smv,0,0,0
-a0,yre,hadj abdelkader ilhem,iha,0,0,0
-a1,yre,benomar abdellah,abbe,0,0,0
-a0,yre,el fahem cyrine,cef,0,0,10.5
-a1,yre,pezier gaël,gpz,0,0,0
-a0,yre,salim sarah,ssl,0,23,16
+titre,rd,nom,m,m1,m2
+seniorconsultant,fpl,dahan cyrille,19,20,22
+consultant,mmu,dhima agi,13,20,22
+consultant,msb,rabadan joris,12,20,22
+seniormanager,ogb,gentil-beccot olivier,7,20,22
+seniorconsultant,mmu,thouard mathieu,7,20,22
+analyst,jgr,tran van loc c‚dric,7,20,22
+seniorconsultant,msb,richard guillaume,6,20,22
+consultant,ala,wallet fabien,0,20,22
+manager,ogb,mahdi mahmoud,0,20,22
+manager,ogb,ouy fabien,0,20,22
+consultant,pbo,namani samir,0,20,22
+seniorconsultant,adu,adeline cl‚ment,0,20,22
+consultant,abh,pambrun audrey,0,20,22
+consultant,abh,galante ezio,0,20,22
+consultant,mma,besagni jessica,0,20,22
+consultant,mma,nguyen thanh nhan elodie,0,20,22
+sales,jte,joad tenenbaum,0,20,22
+sales,jte,lucile engoulevent,0,20,22
+sales,jte,jean karlo umandal,0,20,22
+analyst,spa,descamps kevin,0,18,22
+analyst,ema,srour ali,0,18,22
+consultant,rkz,boens charlotte,0,14,22
+manager,fau,austruy fabrice,6,12,10
+manager,adu,dulong aymeric,0,11,15
+seniorconsultant,fma,de belenet alban,12,10,22
+seniorconsultant,fma,mainguy marie,8.5,10,17
+consultant,adu,sall fatimata,4,10,11
+seniormanager,ala,albert alexis,3,10,12
+manager,fma,chevallier s‚bastien,2,10,22
+seniormanager,fma,mathe florent,2,10,22
+manager,ala,badin jean,0,10,22
+manager,mmu,moulin maximilien,0,10,12
+consultant,jgr,lecuyer f‚lix,0,10,17
+consultant,jgr,oumari zyad,0,10,11
+analyst,oba,crevoisier j‚r“me,0,10,12
+seniorconsultant,mmu,besnard olivier,1,9,22
+analyst,ede,niang fatimata,0,9,22
+manager,ogb,barret matthieu,6,8,10
+manager,ala,richard mickael,0,8,10
+manager,ala,lenormand franck,5,6,18
+manager,ogb,bour pascal,0,6,7
+manager,ala,mernissi khalid,0,5,17
+seniorconsultant,spa,parisot simon,0,5,7
+consultant,fpl,renaudin david,0,4.5,22
+manager,adu,chervet benjamin,3,4,22
+seniormanager,fpl,peilloux fr‚d‚ric,0,4,13
+consultant,rgg,guy-coichard flora,0,4,4.5
+seniorconsultant,fpl,kamoun tarek,0,3.5,12
+consultant,mma,tang erwan,11,3,11
+consultant,adu,vanbaelen j‚r“me,0,3,15
+manager,bd,caron ronan,0,2,22
+consultant,jgr,bureau c‚dric,5,0,0
+consultant,ema,bar maxime,5,0,0
+consultant,jgr,duez guillaume,4,0,0
+seniorconsultant,mmu,rembert yves,4,0,0
+consultant,fma,boulahya abdelrahim,2,0,2
+consultant,ala,boutoille rapha‰l,0,0,0
+consultant,ala,molla jeremy,0,0,0
+manager,ala,thierry nicolas,0,0,12
+consultant,ala,vidal jean louis,0,0,0
+manager,ogb,bredin teva,0,0,22
+seniorconsultant,ogb,habbida nawel,0,0,0
+manager,fma,morizot cl‚ment,0,0,0
+seniorconsultant,fma,tournois s‚bastien,0,0,0
+seniorconsultant,fau,radier simon,0,0,22
+consultant,fau,muhirwa emmanuel,0,0,22
+seniorconsultant,fau,lefranc cl‚ment,0,0,22
+seniorconsultant,fau,ayme c‚dric ,0,0,22
+consultant,fau,de clerck joseph,0,0,22
+analyst,fau,matthey cl‚ment,0,0,0
+analyst,fau,arthur chappe,0,0,22
+analyst,fau,thepaut guillaume,0,0,22
+analyst,fau,ben abdellah mehdi,0,0,22
+consultant,spa,pain tennessee,0,0,0
+consultant,spa,de guisti julien,0,0,0
+analyst,spa,fazaa leila ,0,0,0
+analyst,spa,husser nicolas,0,0,0
+analyst,spa,benjelloun ali,0,0,0
+analyst,spa,talhaoui hassan,0,0,0
+analyst,spa,grondin lionel,0,0,0
+analyst,spa,al hyar soufiane,0,0,0
+consultant,fpl,bourget henri,0,0,22
+consultant,fpl,floury camille,0,0,0
+consultant,fpl,lachaud xavier,0,0,22
+consultant,fpl,le roux julien,0,0,0
+consultant,fpl,ngang willy,0,0,0
+manager,fpl,paroissin benoœt,0,0,0
+consultant,fpl,picardat damien,0,0,0
+consultant,fpl,ternisien florian,0,0,0
+seniorconsultant,mmu,dazet bruno,0,0,0
+seniorconsultant,mmu,yakine riyad ,0,0,0
+consultant,mmu,benard dupas thomas,0,0,0
+manager,pbo,alaoui soulimani meryem,0,0,11
+consultant,pbo,bock mathilde,0,0,7
+seniorconsultant,pbo,jullien jean-baptiste,0,0,14
+consultant,pbo,rieublanc tony,0,0,22
+consultant,pbo,nivette alexandre,0,0,0
+seniorconsultant,pbo,tomasini jonathan,0,0,0
+seniorconsultant,pbo,el hamed yeslem,0,0,11
+seniorconsultant,pbo,pelletier pierre,0,0,11
+manager,msb,sabarly mathieu,0,0,22
+consultant,msb,chan justin,0,0,22
+consultant,msb,doussaud adrien,0,0,22
+seniorconsultant,msb,blaizot thibaut,0,0,22
+seniorconsultant,msb,ivanova maria,0,0,22
+consultant,msb,abril guillaume,0,0,0
+consultant,msb,harnouch yassine,0,0,22
+seniorconsultant,fma,el mhamdi zakaria,0,0,0
+analyst,zel,cruls s‚bastien,0,0,0
+analyst,zel,groussard arnaud,0,0,22
+analyst,zel,hernandez cl‚mence,0,0,22
+analyst,zel,jabbour sara,0,0,0
+analyst,zel,oualli nassim,0,0,0
+analyst,zel,secanove alexandre,0,0,0
+manager,ogb,gerardin jonathan,0,0,0
+consultant,jgr,diagne ma‹mouna,0,0,0
+consultant,jgr,paviet nicolas,0,0,0
+consultant,jgr,mayolle hugues,0,0,12
+consultant,jgr,zveguintzoff adrien,0,0,0
+analyst,jgr,adhemar mehdi,0,0,0
+analyst,jgr,bartmann cord‚lia ,0,0,0
+seniorconsultant,adu,deveaux aur‚lien,0,0,0
+consultant,adu,ropital guillaume,0,0,22
+consultant,adu,nawrocki vincent,0,0,0
+consultant,adu,el khourouj rayhane,0,0,0
+consultant,adu,decante emma,0,0,0
+consultant,adu,ben othman chemsi,0,0,9
+consultant,adu,sedkane mohammed seddik,0,0,0
+consultant,adu,faglin jean-fran‡ois,0,0,0
+manager,nay,ayad nada,0,0,0
+consultant,nay,boukadi ali,0,0,0
+consultant,nay,darwish ramy,0,0,0
+consultant,nay,delattre alexis,0,0,0
+consultant,nay,de vulpillieres claire,0,0,0
+consultant,nay,duflot louis,0,0,0
+seniorconsultant,nay,gasnier lise,0,0,0
+consultant,nay,jaakik marwane,0,0,22
+consultant,nay,massenavette simon,0,0,0
+consultant,nay,parisot pauline,0,0,0
+consultant,nay,peru benjamin,0,0,0
+seniorconsultant,nay,vero laure-anne,0,0,11
+seniorconsultant,fma,kazdaghli rim,0,0,0
+consultant,rkz,ngo dzuy,0,0,0
+consultant,rkz,gallotti dominique,0,0,0
+analyst,rkz,nicolle agathe,0,0,0
+analyst,rkz,beyls guillaume,0,0,0
+analyst,rkz,ben ismail sadok,0,0,0
+analyst,rkz,sireta alexis,0,0,0
+analyst,rkz,frydman manon,0,0,0
+analyst,rkz,menteyne b‚r‚nice,0,0,0
+analyst,rkz,greffier maxime,0,0,0
+analyst,rkz,elsharkawi samir,0,0,0
+seniorconsultant,rkz,boujnah youssef,0,0,0
+consultant,rkz,fordeveaux thibault,0,0,2
+consultant,rkz,benabdellah sofien,0,0,0
+seniorconsultant,ogb,bakhti asma,0,0,17
+consultant,abh,curoy charlotte,0,0,0
+consultant,abh,jegouic kevin,0,0,22
+consultant,abh,massoudi ali,0,0,0
+consultant,abh,cherif mohamed riadh,0,0,0
+seniorconsultant,abh,guillermin marie,0,0,0
+consultant,abh,lemaitre adrien,0,0,0
+consultant,abh,brisville thomas,0,0,22
+consultant,abh,abitbol elie,0,0,0
+consultant,abh,menart gauthier,0,0,0
+consultant,abh,foresto giulio,0,0,22
+consultant,abh,pruvot amaury,0,0,0
+consultant,mma,sarah chou,0,0,2
+consultant,mma,leflond thibault ,0,0,2
+consultant,mma,thierre k‚vin,0,0,2
+consultant,mma,delecolle florian,0,0,22
+consultant,mma,bououli samir,0,0,0
+consultant,mma,menudier geoffray,0,0,0
+consultant,mma,lecossois maxime,0,0,22
+consultant,mma,yoann leneutre,0,0,0
+seniorconsultant,pbo,de williencourt emmanuel,0,0,0
+analyst,ede,ben chaabane mehdi,0,0,0
+consultant,ede,soupin maxime,0,0,0
+intern,msb,bourenane elies,0,0,0
+seniorconsultant,pbo,marechal erwan,0,0,0
+consultant,ema,benkirane mohammed,0,0,0
+consultant,ema,khatiri moutia,0,0,22
+consultant,ema,ben khalifa sabrine,0,0,0
+consultant,ema,deschateaux alexandre,0,0,0
+consultant,ema,squalli houssaini mohamed,0,0,0
+consultant,ema,zollet k‚vin,0,0,0
+consultant,ema,rembert gabrielle,0,0,21
+consultant,ema,pragosa andr‚,0,0,0
+analyst,ema,majid elmahdi,0,0,0
+analyst,ema,fall anna,0,0,11
+manager,pbo,gagliardi romain,0,0,5
+consultant,rgg,bouali meriem,0,0,0
+consultant,rgg,costa alexis,0,0,0
+consultant,rgg,hassad aimšne,0,0,0
+consultant,rgg,mendili fadoua,0,0,0
+consultant,rgg,abdala olga,0,0,0
+consultant,rgg,chan fr‚d‚ric,0,0,0
+consultant,rgg,klitting matthieu,0,0,0
+consultant,rgg,gour jean-baptise,0,0,0
+consultant,rgg,boucon matthieu,0,0,0
+consultant,rgg,durand camille,0,0,11
+consultant,rgg,amine ben cheikh brahim,0,0,0
+seniorconsultant,oba,barsov olga,0,0,4
+consultant,oba,milhau benjamin,0,0,0
+analyst,oba,iguider sofiane,0,0,22
+consultant,oba,monhonvalle olivier,0,0,0
+consultant,oba,sultan chimon,0,0,0
+analyst,oba,godebarge ferr‚ol,0,0,2
+analyst,oba,oudin antoine,0,0,0
+consultant,oba,trachen hind,0,0,0
+consultant,oba,djomouhe patrick ,0,0,0
+consultant,oba,leman joachim,0,0,22
+analyst,yre,vo van julie,0,0,0
+analyst,yre,mazouz omar,0,0,0
+analyst,yre,besson camille,0,0,0
+analyst,yre,colombet aur‚lien,0,0,0
+consultant,yre,movaghar sina,0,0,0
+consultant,yre,hadj abdelkader ilhem,0,0,22
+consultant,yre,benomar abdellah,0,0,0
+analyst,yre,el fahem cyrine,0,0,0
+consultant,yre,pezier ga‰l,0,0,0
+analyst,yre,pringault valentin,0,0,0
+consultant,yre,monchalin pierre,0,0,0
+sales,fle,fr‚d‚ric lelievre,0,0,22
+sales,fle,margot cousinet,0,0,22
+sales,jte,guillaume bour,0,0,22
+sales,jte,fanny verjat,0,0,22
+sales,fle,nicolas baranowski,0,0,22
+sales,jte,jean-baptiste pluchet,0,0,22
+sales,fle,yassine badaoui,0,0,22
+sales,jte,alexandre bernard,0,0,22
