@@ -105,15 +105,11 @@ app.get("/raw", function (req, res) {
 	//reading file on disk and sending it back in HTTP response
 	const fs = require('fs');
 	
-	console.log("1");
 	fs.readFile('pingouin_rules.txt', function (err, data) {
-		console.log("2");
 		if (err) throw err;
-		console.log("3");
 		send_response(data);
-		console.log("4");
 	});
-	console.log("5");
+
 	
 });
 
