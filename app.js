@@ -73,6 +73,52 @@ switch(intent) {
  
 });
 
+// permet de mettre à jour les disponibilités en uploadant un nouveau fichier
+app.post("/upload", function (req, res) {
+  
+  function send_response (response){
+	res.setHeader('Content-Type', 'application/json'); //Requires application/json MIME type
+	res.send(JSON.stringify({ "status": response }));
+  }
+  
+	// Writing new file on disk
+	const fs = require('fs');
+	
+	//let content = 'Pingouin rules';
+	let content = JSON.stringify(req.body);
+	
+	console.log(content);
+
+	// write file to disk
+	fs.writeFile('pingouin_rules.txt', content, send_response("Fichier uploadé"));
+  
+});
+
+// permet de visualiser le fichier brut des disponibilites
+app.get("/raw", function (req, res) {
+  
+	function send_response (response){
+	res.setHeader('Content-Type', 'application/json'); //Requires application/json MIME type
+	res.send(response);
+	}
+  
+	//reading file on disk and sending it back in HTTP response
+	const fs = require('fs');
+	
+	console.log("1");
+	fs.readFile('pingouin_rules.txt', function (err, data) {
+		console.log("2");
+		if (err) throw err;
+		console.log("3");
+		send_response(data);
+		console.log("4");
+	});
+	console.log("5");
+	
+});
+
+
+
 // Elaborating parser
 app.get("/parser", function (req, res) {
   
