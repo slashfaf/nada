@@ -1,237 +1,237 @@
 titre,nom,m,m1,m2
 error,error,error,error,error
-Analyst,Sebastien CRULS,4,22,20
-Analyst,BARTMANN Cordelia ,11.5,22,20
-SeniorConsultant,DAHAN Cyrille,0,21,20
-Analyst,NIANG Fatimata,0,20,18
-Manager,BARRET Matthieu,0,14,20
-Consultant,MONHONVALLE Olivier,0,14,20
-Consultant,BUREAU Cedric,3.5,14,0
-Consultant,RABADAN Joris,0,12,20
-Analyst,TRAN VAN LOC Cedric,0,12,20
-Consultant,PARISOT Pauline,0,12,20
-SeniorConsultant,DAZET Bruno,3,11,20
-Manager,AYAD Nada,0,11,10
-Consultant,TANG Erwan,0,11,3
-Consultant,DUEZ Guillaume,0,10,20
-Consultant,BEN OTHMAN Chemsi,0,10,14
-Consultant,MONCHALIN Pierre,0,10,8
-Analyst,BESSON Camille,7,9,20
-SeniorConsultant,CHERVET Benjamin,0,8,18
-Consultant,VANBAELEN Jerome,0,8,10
-Consultant,LECOSSOIS Maxime,0,8,8
-Manager,LENORMAND Franck,2,8,6
-SeniorManager,GENTIL-BECCOT Olivier,0,7,20
-SeniorConsultant,THOUARD Mathieu,0,7,20
-Manager,MERNISSI Khalid,0,7,15
-SeniorConsultant,BESNARD Olivier,0,7,10
-SeniorConsultant,RICHARD Guillaume,0,6,20
-SeniorConsultant,ADELINE Clement,0,6,20
-Manager,AUSTRUY Fabrice,0,6,10
-SeniorConsultant,DE WILLIENCOURT Emmanuel,0,5,12
-Consultant,DARWISH Ramy,0,5,0
-Consultant,RENAUDIN David,0,4,20
-Consultant,SALL Fatimata,0,4,10
-SeniorManager,PEILLOUX Frederic,0,4,7
-SeniorConsultant,REMBERT Yves,0,4,2
-Consultant,FLOURY Camille,0,3,20
-Consultant,JAAKIK Marwane,0,3,20
-SeniorManager,ALBERT Alexis,0,3,10
-SeniorManager,MATHE Florent,2,3,0
-Manager,THIERRY Nicolas,0,2,1
-Manager,CARON Ronan,0,1,4
-Consultant,BENARD DUPAS Thomas,0,1,1
-Manager,BADIN Jean,0,0,20
-Consultant,WALLET Fabien,0,0,20
-Manager,BREDIN Teva,0,0,20
-Manager,MAHDI Mahmoud,0,0,20
-Manager,OUY Fabien,0,0,20
-Analyst,TISIN Ghislaine,0,0,20
-Analyst,AL HYAR Soufiane,0,0,20
-Manager,MOULIN Maximilien,0,0,20
-Consultant,NAMANI Samir,0,0,20
-Analyst,GROUSSARD Arnaud,0,0,20
-Analyst,ADHEMAR Mehdi,0,0,20
-SeniorConsultant,DEVEAUX Aurelien,0,0,20
-Consultant,ROPITAL Guillaume,0,0,20
-Consultant,DECANTE Emma,0,0,20
-Consultant,BOUKADI Ali,0,0,20
-Analyst,MENTEYNE Berenice,0,0,20
-Consultant,JEGOUIC Kevin,0,0,20
-Consultant,PAMBRUN Audrey,0,0,20
-Consultant,BESAGNI Jessica,0,0,20
-Consultant,NGUYEN THANH NHAN Elodie,0,0,20
-Consultant,ABDALA Olga,0,0,20
-Consultant,BOUCON Matthieu,0,0,20
-Sales,Frederic LELIEVRE,0,0,20
-Sales,Margot COUSINET,1,0,20
-Sales,Joad TENENBAUM,0,0,20
-Sales,Lucile ENGOULEVENT,0,0,20
-Sales,Guillaume BOUR,0,0,20
-Sales,Jean Karlo UMANDAL,0,0,20
-Sales,Fanny VERJAT,0,0,20
-Sales,Nicolas BARANOWSKI,0,0,20
-Sales,Jean-Baptiste PLUCHET,0,0,20
-Sales,Yassine BADAOUI,0,0,20
-Sales,Alexandre BERNARD,0,0,20
-Analyst,DESCAMPS Kevin,0,0,18
-Analyst,BEN CHAABANE Mehdi,0,0,18
-Analyst,SROUR Ali,0,0,18
-Consultant,GUY-COICHARD Flora,0,0,18
-Manager,DULONG Aymeric,0,0,15
-Analyst,ELSHARKAWI Samir,0,0,15
-SeniorConsultant,de BELENET Alban,0,0,10
-Consultant,LECUYER Felix,0,0,10
-Consultant,OUMARI Zyad,0,0,10
-Consultant,BOENS Charlotte,0,0,10
-SeniorConsultant,MAINGUY Marie,0,0,10
-Analyst,CREVOISIER Jerome,0,0,10
-Consultant,BOUJNAH Youssef,0,0,9
-Manager,RICHARD Mickael,0,0,8
-Manager,BOUR Pascal,0,0,6
-SeniorConsultant,PARISOT Simon,0,0,5
-Consultant,COSTA Alexis,0,0,5
-SeniorConsultant,KAMOUN Tarek,0,0,3.5
-Consultant,BOUTOILLE Raphael,0,0,0
-Consultant,MOLLA Jeremy,0,0,0
-Consultant,VIDAL Jean Louis,0,0,0
-SeniorConsultant,HABBIDA Nawel,0,0,0
-Consultant,BOULAHYA Abdelrahim,0,0,0
-Manager,CHEVALLIER Sebastien,0,0,0
-Manager,MORIZOT Clement,0,0,0
-SeniorConsultant,TOURNOIS Sebastien,0,0,0
-SeniorConsultant,RADIER Simon,0,0,0
-Consultant,MUHIRWA Emmanuel,0,0,0
-SeniorConsultant,LEFRANC Clement,0,0,0
-SeniorConsultant,AYME Cedric ,0,0,0
-Consultant,DE CLERCK Joseph,0,0,0
-Analyst,MATTHEY Clement,0,0,0
-Analyst,Arthur CHAPPE,6.5,0,0
-Analyst,THEPAUT Guillaume,0,0,0
-Analyst,BEN ABDELLAH Mehdi,0,0,0
-Consultant,GIRARDEAU Emmanuel,0,0,0
-Consultant,PAIN Tennessee,0,0,0
-Consultant,DE GUISTI Julien,0,0,0
-Analyst,FAZAA Leila ,0,0,0
-Analyst,HUSSER Nicolas,0,0,0
-Analyst,BENJELLOUN Ali,0,0,0
-Analyst,TALHAOUI Hassan,0,0,0
-Analyst,GRONDIN Lionel,0,0,0
-Consultant,BOURGET Henri,0,0,0
-Consultant,LACHAUD Xavier,0,0,0
-Consultant,LE ROUX Julien,0,0,0
-Consultant,NGANG Willy,0,0,0
-Manager,PAROISSIN Benoit,0,0,0
-Consultant,PICARDAT Damien,0,0,0
-Consultant,TERNISIEN Florian,0,0,0
-SeniorConsultant,YAKINE Riyad ,0,0,0
-Consultant,DHIMA Agi,0,0,0
-Manager,ALAOUI SOULIMANI Meryem,0,0,0
-Consultant,BOCK Mathilde,0,0,0
-SeniorConsultant,JULLIEN Jean-Baptiste,0,0,0
-Consultant,RIEUBLANC Tony,0,0,0
-Consultant,NIVETTE Alexandre,0,0,0
-SeniorConsultant,TOMASINI Jonathan,0,0,0
-SeniorConsultant,EL HAMED Yeslem,0,0,0
-SeniorConsultant,PELLETIER Pierre,0,0,0
-Manager,SABARLY Mathieu,0,0,0
-Consultant,CHAN Justin,0,0,0
-Consultant,DOUSSAUD Adrien,0,0,0
-SeniorConsultant,BLAIZOT Thibaut,0,0,0
-SeniorConsultant,IVANOVA Maria,0,0,0
-Consultant,ABRIL Guillaume,0,0,0
-Consultant,HARNOUCH Yassine,0,0,0
-SeniorConsultant,EL MHAMDI Zakaria,0,0,0
-Analyst,OUALLI Nassim,0,0,0
-Analyst,HERNANDEZ Clemence,0,0,0
-Analyst,JABBOUR Sara,0,0,0
-Analyst,Alexandre SECANOVE,0,0,0
-Manager,GERARDIN Jonathan,0,0,0
-Consultant,DIAGNE Maimouna,0,0,0
-Consultant,PAVIET Nicolas,0,0,0
-Consultant,MAYOLLE Hugues,0,0,0
-Consultant,ZVEGUINTZOFF Adrien,0,0,0
-Consultant,NAWROCKI Vincent,0,0,0
-Consultant,EL KHOUROUJ Rayhane,0,0,0
-Consultant,SEDKANE Mohammed Seddik,0,0,0
-Consultant,FAGLIN Jean-Francois,0,0,0
-Consultant,CHABRY Louis,0,0,0
-Consultant,DELATTRE Alexis,0,0,0
-Consultant,DE VULPILLIERES Claire,0,0,0
-Consultant,DUFLOT Louis,0,0,0
-SeniorConsultant,GASNIER Lise,0,0,0
-Consultant,MASSENAVETTE Simon,0,0,0
-Consultant,PAOLETTI Romain,0,0,0
-Consultant,PERU Benjamin,0,0,0
-SeniorConsultant,VERO Laure-Anne,0,0,0
-SeniorConsultant,KAZDAGHLI Rim,0,0,0
-Consultant,NGO Dzuy,0,0,0
-Consultant,GALLOTTI Dominique,0,0,0
-Analyst,NICOLLE Agathe,0,0,0
-Analyst,BEYLS Guillaume,0,0,0
-Analyst,BEN ISMAIL Sadok,0,0,0
-Analyst,SIRETA Alexis,0,0,0
-Analyst,FRYDMAN Manon,0,0,0
-Analyst,GREFFIER Maxime,0,0,0
-Consultant,FORDEVEAUX Thibault,0,0,0
-Consultant,BENABDELLAH Sofien,0,0,0
-SeniorConsultant,BAKHTI Asma,0,0,0
-Consultant,CUROY Charlotte,0,0,0
-Consultant,MASSOUDI Ali,0,0,0
-Consultant,CHERIF Mohamed Riadh,0,0,0
-SeniorConsultant,GUILLERMIN Marie,0,0,0
-Consultant,LEMAITRE Adrien,0,0,0
-Consultant,BRISVILLE Thomas,0,0,0
-Consultant,GALANTE Ezio,0,0,0
-Consultant,ABITBOL Elie,0,0,0
-Consultant,MENART Gauthier,0,0,0
-Consultant,FORESTO Giulio,0,0,0
-Consultant,PRUVOT Amaury,0,0,0
-Consultant,Sarah CHOU,0,0,0
-Consultant,LEFLOND Thibault ,0,0,0
-Consultant,THIERRE Kevin,0,0,0
-Consultant,DELECOLLE Florian,5,0,0
-Consultant,BOUOULI Samir,0,0,0
-Consultant,MENUDIER Geoffray,0,0,0
-Consultant,Yoann LENEUTRE,0,0,0
-Consultant,SOUPIN Maxime,0,0,0
-Intern,BOURENANE Elies,0,0,0
-SeniorConsultant,MARECHAL Erwan,0,0,0
-Consultant,BENKIRANE Mohammed,0,0,0
-Consultant,KHATIRI Moutia,0,0,0
-Consultant,BEN KHALIFA Sabrine,0,0,0
-Consultant,DESCHATEAUX Alexandre,0,0,0
-Consultant,SQUALLI HOUSSAINI Mohamed,0,0,0
-Consultant,ZOLLET Kevin,0,0,0
-Consultant,REMBERT Gabrielle,0,0,0
-Consultant,BAR Maxime,0,0,0
-Consultant,PRAGOSA Andre,0,0,0
-Analyst,MAJID Elmahdi,0,0,0
-Analyst,FALL Anna,0,0,0
-Manager,GAGLIARDI Romain,0,0,0
-Consultant,BOUALI Meriem,0,0,0
-Consultant,HASSAD Aimene,1.5,0,0
-Consultant,MENDILI Fadoua,0,0,0
-Consultant,CHAN Frederic,0,0,0
-Consultant,KLITTING Matthieu,0,0,0
-Consultant,GOUR Jean-Baptise,0,0,0
-Consultant,DURAND Camille,0,0,0
-Consultant,Amine BEN CHEIKH BRAHIM,0,0,0
-SeniorConsultant,BARSOV Olga,0,0,0
-Consultant,MILHAU Benjamin,0,0,0
-Analyst,IGUIDER Sofiane,0,0,0
-Consultant,SULTAN Chimon,0,0,0
-Analyst,GODEBARGE Ferreol,0,0,0
-Analyst,OUDIN Antoine,0,0,0
-Consultant,TRACHEN Hind,0,0,0
-Consultant,DJOMOUHE Patrick ,0,0,0
-Consultant,LEMAN Joachim,0,0,0
-Analyst,VO VAN Julie,0,0,0
-Analyst,MAZOUZ Omar,1,0,0
-Analyst,COLOMBET Aurelien,0,0,0
-Consultant,MOVAGHAR Sina,0,0,0
-Consultant,HADJ ABDELKADER Ilhem,0,0,0
-Consultant,BENOMAR Abdellah,0,0,0
-Analyst,EL FAHEM Cyrine,0,0,0
-Consultant,PEZIER Gael,0,0,0
-Analyst,PRINGAULT Valentin,0,0,0
+analyst,sebastien cruls,4,22,20
+analyst,bartmann cordelia ,11.5,22,20
+seniorconsultant,dahan cyrille,0,21,20
+analyst,niang fatimata,0,20,18
+manager,barret matthieu,0,14,20
+consultant,monhonvalle olivier,0,14,20
+consultant,bureau cedric,3.5,14,0
+consultant,rabadan joris,0,12,20
+analyst,tran van loc cedric,0,12,20
+consultant,parisot pauline,0,12,20
+seniorconsultant,dazet bruno,3,11,20
+manager,ayad nada,0,11,10
+consultant,tang erwan,0,11,3
+consultant,duez guillaume,0,10,20
+consultant,ben othman chemsi,0,10,14
+consultant,monchalin pierre,0,10,8
+analyst,besson camille,7,9,20
+seniorconsultant,chervet benjamin,0,8,18
+consultant,vanbaelen jerome,0,8,10
+consultant,lecossois maxime,0,8,8
+manager,lenormand franck,2,8,6
+seniormanager,gentil-beccot olivier,0,7,20
+seniorconsultant,thouard mathieu,0,7,20
+manager,mernissi khalid,0,7,15
+seniorconsultant,besnard olivier,0,7,10
+seniorconsultant,richard guillaume,0,6,20
+seniorconsultant,adeline clement,0,6,20
+manager,austruy fabrice,0,6,10
+seniorconsultant,de williencourt emmanuel,0,5,12
+consultant,darwish ramy,0,5,0
+consultant,renaudin david,0,4,20
+consultant,sall fatimata,0,4,10
+seniormanager,peilloux frederic,0,4,7
+seniorconsultant,rembert yves,0,4,2
+consultant,floury camille,0,3,20
+consultant,jaakik marwane,0,3,20
+seniormanager,albert alexis,0,3,10
+seniormanager,mathe florent,2,3,0
+manager,thierry nicolas,0,2,1
+manager,caron ronan,0,1,4
+consultant,benard dupas thomas,0,1,1
+manager,badin jean,0,0,20
+consultant,wallet fabien,0,0,20
+manager,bredin teva,0,0,20
+manager,mahdi mahmoud,0,0,20
+manager,ouy fabien,0,0,20
+analyst,tisin ghislaine,0,0,20
+analyst,al hyar soufiane,0,0,20
+manager,moulin maximilien,0,0,20
+consultant,namani samir,0,0,20
+analyst,groussard arnaud,0,0,20
+analyst,adhemar mehdi,0,0,20
+seniorconsultant,deveaux aurelien,0,0,20
+consultant,ropital guillaume,0,0,20
+consultant,decante emma,0,0,20
+consultant,boukadi ali,0,0,20
+analyst,menteyne berenice,0,0,20
+consultant,jegouic kevin,0,0,20
+consultant,pambrun audrey,0,0,20
+consultant,besagni jessica,0,0,20
+consultant,nguyen thanh nhan elodie,0,0,20
+consultant,abdala olga,0,0,20
+consultant,boucon matthieu,0,0,20
+sales,frederic lelievre,0,0,20
+sales,margot cousinet,1,0,20
+sales,joad tenenbaum,0,0,20
+sales,lucile engoulevent,0,0,20
+sales,guillaume bour,0,0,20
+sales,jean karlo umandal,0,0,20
+sales,fanny verjat,0,0,20
+sales,nicolas baranowski,0,0,20
+sales,jean-baptiste pluchet,0,0,20
+sales,yassine badaoui,0,0,20
+sales,alexandre bernard,0,0,20
+analyst,descamps kevin,0,0,18
+analyst,ben chaabane mehdi,0,0,18
+analyst,srour ali,0,0,18
+consultant,guy-coichard flora,0,0,18
+manager,dulong aymeric,0,0,15
+analyst,elsharkawi samir,0,0,15
+seniorconsultant,de belenet alban,0,0,10
+consultant,lecuyer felix,0,0,10
+consultant,oumari zyad,0,0,10
+consultant,boens charlotte,0,0,10
+seniorconsultant,mainguy marie,0,0,10
+analyst,crevoisier jerome,0,0,10
+consultant,boujnah youssef,0,0,9
+manager,richard mickael,0,0,8
+manager,bour pascal,0,0,6
+seniorconsultant,parisot simon,0,0,5
+consultant,costa alexis,0,0,5
+seniorconsultant,kamoun tarek,0,0,3.5
+consultant,boutoille raphael,0,0,0
+consultant,molla jeremy,0,0,0
+consultant,vidal jean louis,0,0,0
+seniorconsultant,habbida nawel,0,0,0
+consultant,boulahya abdelrahim,0,0,0
+manager,chevallier sebastien,0,0,0
+manager,morizot clement,0,0,0
+seniorconsultant,tournois sebastien,0,0,0
+seniorconsultant,radier simon,0,0,0
+consultant,muhirwa emmanuel,0,0,0
+seniorconsultant,lefranc clement,0,0,0
+seniorconsultant,ayme cedric ,0,0,0
+consultant,de clerck joseph,0,0,0
+analyst,matthey clement,0,0,0
+analyst,arthur chappe,6.5,0,0
+analyst,thepaut guillaume,0,0,0
+analyst,ben abdellah mehdi,0,0,0
+consultant,girardeau emmanuel,0,0,0
+consultant,pain tennessee,0,0,0
+consultant,de guisti julien,0,0,0
+analyst,fazaa leila ,0,0,0
+analyst,husser nicolas,0,0,0
+analyst,benjelloun ali,0,0,0
+analyst,talhaoui hassan,0,0,0
+analyst,grondin lionel,0,0,0
+consultant,bourget henri,0,0,0
+consultant,lachaud xavier,0,0,0
+consultant,le roux julien,0,0,0
+consultant,ngang willy,0,0,0
+manager,paroissin benoit,0,0,0
+consultant,picardat damien,0,0,0
+consultant,ternisien florian,0,0,0
+seniorconsultant,yakine riyad ,0,0,0
+consultant,dhima agi,0,0,0
+manager,alaoui soulimani meryem,0,0,0
+consultant,bock mathilde,0,0,0
+seniorconsultant,jullien jean-baptiste,0,0,0
+consultant,rieublanc tony,0,0,0
+consultant,nivette alexandre,0,0,0
+seniorconsultant,tomasini jonathan,0,0,0
+seniorconsultant,el hamed yeslem,0,0,0
+seniorconsultant,pelletier pierre,0,0,0
+manager,sabarly mathieu,0,0,0
+consultant,chan justin,0,0,0
+consultant,doussaud adrien,0,0,0
+seniorconsultant,blaizot thibaut,0,0,0
+seniorconsultant,ivanova maria,0,0,0
+consultant,abril guillaume,0,0,0
+consultant,harnouch yassine,0,0,0
+seniorconsultant,el mhamdi zakaria,0,0,0
+analyst,oualli nassim,0,0,0
+analyst,hernandez clemence,0,0,0
+analyst,jabbour sara,0,0,0
+analyst,alexandre secanove,0,0,0
+manager,gerardin jonathan,0,0,0
+consultant,diagne maimouna,0,0,0
+consultant,paviet nicolas,0,0,0
+consultant,mayolle hugues,0,0,0
+consultant,zveguintzoff adrien,0,0,0
+consultant,nawrocki vincent,0,0,0
+consultant,el khourouj rayhane,0,0,0
+consultant,sedkane mohammed seddik,0,0,0
+consultant,faglin jean-francois,0,0,0
+consultant,chabry louis,0,0,0
+consultant,delattre alexis,0,0,0
+consultant,de vulpillieres claire,0,0,0
+consultant,duflot louis,0,0,0
+seniorconsultant,gasnier lise,0,0,0
+consultant,massenavette simon,0,0,0
+consultant,paoletti romain,0,0,0
+consultant,peru benjamin,0,0,0
+seniorconsultant,vero laure-anne,0,0,0
+seniorconsultant,kazdaghli rim,0,0,0
+consultant,ngo dzuy,0,0,0
+consultant,gallotti dominique,0,0,0
+analyst,nicolle agathe,0,0,0
+analyst,beyls guillaume,0,0,0
+analyst,ben ismail sadok,0,0,0
+analyst,sireta alexis,0,0,0
+analyst,frydman manon,0,0,0
+analyst,greffier maxime,0,0,0
+consultant,fordeveaux thibault,0,0,0
+consultant,benabdellah sofien,0,0,0
+seniorconsultant,bakhti asma,0,0,0
+consultant,curoy charlotte,0,0,0
+consultant,massoudi ali,0,0,0
+consultant,cherif mohamed riadh,0,0,0
+seniorconsultant,guillermin marie,0,0,0
+consultant,lemaitre adrien,0,0,0
+consultant,brisville thomas,0,0,0
+consultant,galante ezio,0,0,0
+consultant,abitbol elie,0,0,0
+consultant,menart gauthier,0,0,0
+consultant,foresto giulio,0,0,0
+consultant,pruvot amaury,0,0,0
+consultant,sarah chou,0,0,0
+consultant,leflond thibault ,0,0,0
+consultant,thierre kevin,0,0,0
+consultant,delecolle florian,5,0,0
+consultant,bououli samir,0,0,0
+consultant,menudier geoffray,0,0,0
+consultant,yoann leneutre,0,0,0
+consultant,soupin maxime,0,0,0
+intern,bourenane elies,0,0,0
+seniorconsultant,marechal erwan,0,0,0
+consultant,benkirane mohammed,0,0,0
+consultant,khatiri moutia,0,0,0
+consultant,ben khalifa sabrine,0,0,0
+consultant,deschateaux alexandre,0,0,0
+consultant,squalli houssaini mohamed,0,0,0
+consultant,zollet kevin,0,0,0
+consultant,rembert gabrielle,0,0,0
+consultant,bar maxime,0,0,0
+consultant,pragosa andre,0,0,0
+analyst,majid elmahdi,0,0,0
+analyst,fall anna,0,0,0
+manager,gagliardi romain,0,0,0
+consultant,bouali meriem,0,0,0
+consultant,hassad aimene,1.5,0,0
+consultant,mendili fadoua,0,0,0
+consultant,chan frederic,0,0,0
+consultant,klitting matthieu,0,0,0
+consultant,gour jean-baptise,0,0,0
+consultant,durand camille,0,0,0
+consultant,amine ben cheikh brahim,0,0,0
+seniorconsultant,barsov olga,0,0,0
+consultant,milhau benjamin,0,0,0
+analyst,iguider sofiane,0,0,0
+consultant,sultan chimon,0,0,0
+analyst,godebarge ferreol,0,0,0
+analyst,oudin antoine,0,0,0
+consultant,trachen hind,0,0,0
+consultant,djomouhe patrick ,0,0,0
+consultant,leman joachim,0,0,0
+analyst,vo van julie,0,0,0
+analyst,mazouz omar,1,0,0
+analyst,colombet aurelien,0,0,0
+consultant,movaghar sina,0,0,0
+consultant,hadj abdelkader ilhem,0,0,0
+consultant,benomar abdellah,0,0,0
+analyst,el fahem cyrine,0,0,0
+consultant,pezier gael,0,0,0
+analyst,pringault valentin,0,0,0
