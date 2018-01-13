@@ -463,7 +463,7 @@ function four_digits_string (s) {
 	
 	if (s < 10)
 	{
-		result = "    " + s;
+		result = "   " + s;
 	}
 	else {
 		
