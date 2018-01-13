@@ -84,15 +84,13 @@ app.post("/upload", function (req, res) {
 	// Writing new file on disk
 	const fs = require('fs');
 	
-	//let content = 'Pingouin rules';
-	let content = JSON.stringify(req.body);
-	
-	console.log(content);
+	content = convertToCSV(req.body);
 
 	// write file to disk
-	fs.writeFile('pingouin_rules.txt', content, send_response("Fichier uploadé"));
+	fs.writeFile('data.csv', content, send_response("Fichier uploadé"));
   
 });
+
 
 // permet de visualiser le fichier brut des disponibilites
 app.get("/raw", function (req, res) {
@@ -102,17 +100,16 @@ app.get("/raw", function (req, res) {
 	res.send(response);
 	}
   
-	//reading file on disk and sending it back in HTTP response
+	//reading file on disk, and sending it back in HTTP response
 	const fs = require('fs');
 	
-	fs.readFile('pingouin_rules.txt', function (err, data) {
+	fs.readFile('data.csv', function (err, data) {
 		if (err) throw err;
 		send_response(data);
 	});
 
 	
 });
-
 
 
 // Elaborating parser
@@ -439,8 +436,40 @@ catch(exception)
 
 }
 
-function four_digits_string (s)
-{
+function convertToCSV(objArray) {
+    var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
+    var str = '';
+	
+	//This loop add one line for the header
+	var line = '';
+    for (var index in array[0]) {
+        //Now convert each value to string and comma-separatedrated
+        line += index + ',';
+		console.log(line)
+    }
+	//get rid of the last comma
+    line = line.slice(0, -1);
+    //append Label row with line break
+    str += line + '\r\n';
+	
+	console.log(str)
+	
+	//this loop add one line for each item in the objArray
+    for (var i = 0; i < array.length; i++) {
+        var line = '';
+        for (var index in array[i]) {
+            if (line != '') line += ','
+
+            line += array[i][index];
+        }
+
+        str += line + '\r\n';
+    }
+
+    return str;
+}
+
+function four_digits_string (s) {
 	switch(s.length)
 	{
 		case 1 :
