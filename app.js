@@ -292,9 +292,6 @@ function i_dispo_treatment(req) {
 }
 
 function lister_les_consultants_disponibles(callback, nom, grade, date) {
-	
-	console.log(" ");
-	console.log("  -- starting parser -- ");
 		
 	var csv = require('csv-array');
 	csv.parseCSV("data.csv", function(data){
@@ -324,14 +321,12 @@ function lister_les_consultants_disponibles(callback, nom, grade, date) {
 			/////////////////				
 
 			if (typeof grade !== 'undefined' && grade !== null) {
-			console.log("  -- searching for a specific grade -- ");
 			result = query("titre").search(grade).on(data);
 			}
 			
 			//////////////////
 			//filtering data : excluding all people not available on the required month
 			//////////////////
-			console.log("  -- filtering data -- ");
 			result = query(date_to_month(date)).gt(0).on(result);
 			
 		}		
@@ -339,15 +334,13 @@ function lister_les_consultants_disponibles(callback, nom, grade, date) {
 		//////////////////
 		//sorting data : descending sort on the required month ; if date is empty, then default value is "m"
 		//////////////////
-		console.log("  -- sorting data -- ");
 		result = query().sort(date_to_month(date)).numeric().desc().on(result);
 	
 			
 		//////////////////
 		//preparing data : short textual representation of data 
 		//////////////////
-		console.log("  -- preparing restitution -- ");		
-		
+				
 		var result_as_string ;
 		result_as_string = "";
 		
@@ -372,7 +365,6 @@ function lister_les_consultants_disponibles(callback, nom, grade, date) {
 		
 		result.forEach(function(item){
 			
-			console.log(item.m + " " + item.m1 + " " + item.m2 + " " + item.nom + " " + item.titre + " "  );
 			result_as_string =  result_as_string + m_formating + four_digits_string(item.m) + m_formating + " " + m1_formating + four_digits_string(item.m1) + m1_formating + " " + m2_formating + four_digits_string(item.m2) + m2_formating + " " + "*" + item.nom + "*" + " " + item.titre +  " \n " ;
 			
 		});
@@ -380,7 +372,6 @@ function lister_les_consultants_disponibles(callback, nom, grade, date) {
 		/////////////////	
 		//sending data 
 		/////////////////
-		console.log("  -- executing callback-- ");
 		callback(result_as_string);
 	});
 	
@@ -393,9 +384,7 @@ function date_to_month (d) {
 /////////////////	
 try{
 
-	console.log("d = " + d);
 	var required_date = new Date(d.substring(0,10));
-	console.log("required_date = " + required_date);
 	
 	y_req = required_date.getFullYear();
 	m_req = required_date.getMonth();
@@ -405,8 +394,7 @@ try{
 	m_now = date.getMonth();
 
 	diff = (y_req - y_now)*12 + (m_req - m_now); 
-	console.log("diff = " + diff);
-		
+
 	switch(diff) {
 		
 		case 0 :
@@ -425,7 +413,6 @@ try{
 		result = "m";
 	}
 
-	console.log("result date_to_month = " + result);
 	return result;
 
 }
@@ -471,22 +458,16 @@ function convertToCSV(objArray) {
 }
 
 function four_digits_string (s) {
-	switch(s.length)
+	
+	s = Math.round(s)
+	
+	if (s < 10)
 	{
-		case 1 :
-		result = "   " + s;
-		break;
-			
-		case 2 :
 		result = "  " + s;
-		break;
+	}
+	else {
 		
-		case 3 :
-		result = " " + s;
-		break;
-		
-		default:
-		result = s;
+		result = "" + s;
 	}
 	
 	return result;
