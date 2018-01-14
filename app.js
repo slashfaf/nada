@@ -100,9 +100,9 @@ app.get("/raw", function (req, res) {
 	res.send(response);
 	}
   
-	//reading file on disk, and sending it back in HTTP response
 	const fs = require('fs');
 	
+	//reading file on disk, and sending it back in HTTP response
 	fs.readFile('data.csv', function (err, data) {
 		if (err) throw err;
 		send_response(data);
@@ -369,10 +369,29 @@ function lister_les_consultants_disponibles(callback, nom, grade, date) {
 			
 		});
 		
+		/////////////////
+		//collecting information about data freshness
+		/////////////////
+	
+		freshness_message = "";
+		
+		//get date of modification of data.csv
+		const fs = require('fs');
+		fs.stat('data.csv', function(error, stats) {
+				
+		var moment = require('moment');
+		moment.locale('fr');
+		freshness_message = '_Mis à jour le ' + moment(stats.mtime).format('D MMMM YYYY') +' à '+ moment(stats.mtime).format('LT')+"_";
+		
+		result_as_string = result_as_string + freshness_message ;
+		
 		/////////////////	
 		//sending data 
 		/////////////////
 		callback(result_as_string);
+		
+		});
+		
 	});
 	
 }
